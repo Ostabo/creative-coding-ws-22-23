@@ -1,4 +1,4 @@
-# creative-coding-ws-22-23.github.io
+# creative-coding-ws-22-23
 
 This template should help get you started developing with Vue 3 in Vite.
 
