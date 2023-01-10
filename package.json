@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "@vitejs/plugin-basic-ssl": "^1.0.1",
     "vite": "^4.0.0"
   }
 }
