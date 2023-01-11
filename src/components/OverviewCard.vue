@@ -1,7 +1,8 @@
 <template>
   <v-card width="400px" class="ma-6">
     <v-img
-      :src="image"
+      :src="'src/assets/images/' + image"
+      alt="test"
       max-height="300px">
     </v-img>
     <v-card-title>{{title}}</v-card-title>
