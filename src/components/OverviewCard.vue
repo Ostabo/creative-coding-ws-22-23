@@ -1,8 +1,8 @@
 <template>
   <v-card width="400px" class="ma-6">
     <v-img
-      :src="'src/assets/images/' + image"
-      alt="test"
+      :src="getImg()"
+      alt="Project Preview"
       max-height="300px">
     </v-img>
     <v-card-title>{{title}}</v-card-title>
@@ -39,6 +39,11 @@ export default {
     route: {
       type: String,
       required: true
+    }
+  },
+  methods: {
+    getImg() {
+      return new URL(`../assets/images/${this.image}`, import.meta.url).href
     }
   }
 }
