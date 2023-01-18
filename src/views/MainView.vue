@@ -20,60 +20,67 @@
     </p>
   </v-row>
   <v-row :align="'center'" :justify="'center'" class="border-t">
-    <OverviewCard image="test.png"
+    <OverviewCard image="TODO"
                   route="/group/1"
-                  subtitle="Tester 1, Tester 2, ..."
-                  text="This is a project made @ HTWG - Lake of Constance and is a test card to see if this is working !"
+                  subtitle="Linda Sommerhalter "
+                  text="Schriftgestaltung"
                   title="Gruppe-1"
     >
     </OverviewCard>
-    <OverviewCard image="test.png"
+    <OverviewCard image="TODO"
                   route="/group/2"
-                  subtitle="Tester 1, Tester 2, ..."
-                  text="This is a project made @ HTWG - Lake of Constance and is a test card to see if this is working !"
+                  subtitle="Nicolas Müller, Marcel Biselli"
+                  text="Typografie"
                   title="Gruppe-2"
     >
     </OverviewCard>
-    <OverviewCard image="test.png"
+    <OverviewCard image="TODO"
                   route="/group/3"
-                  subtitle="Tester 1, Tester 2, ..."
-                  text="This is a project made @ HTWG - Lake of Constance and is a test card to see if this is working !"
+                  subtitle="Elisabeth Schmidt, Emanuel Kupke"
+                  text="Soundvisualisierung"
                   title="Gruppe-3"
     >
     </OverviewCard>
-    <OverviewCard image="test.png"
+    <OverviewCard image="TODO"
                   route="/group/4"
-                  subtitle="Tester 1, Tester 2, ..."
-                  text="This is a project made @ HTWG - Lake of Constance and is a test card to see if this is working !"
+                  subtitle="Marius Emonts"
+                  text="Soundvisualisierung"
                   title="Gruppe-4"
     >
     </OverviewCard>
-    <OverviewCard image="test.png"
+    <OverviewCard image="TODO"
                   route="/group/5"
-                  subtitle="Tester 1, Tester 2, ..."
-                  text="This is a project made @ HTWG - Lake of Constance and is a test card to see if this is working !"
+                  subtitle="Lukas Schwarz"
+                  text="Soundvis. mit Arduino+Touchdesigner"
                   title="Gruppe-5"
     >
     </OverviewCard>
-    <OverviewCard image="test.png"
+    <OverviewCard image="TODO"
                   route="/group/6"
-                  subtitle="Tester 1, Tester 2, ..."
-                  text="This is a project made @ HTWG - Lake of Constance and is a test card to see if this is working !"
+                  subtitle="Pfeifer Jan, Kim Joy Serden, Lilli Marutschke, Nadine Görzen"
+                  text="Poster (Sapere Aude)"
                   title="Gruppe-6"
     >
     </OverviewCard>
     <OverviewCard image="test.png"
                   route="/group/7"
-                  subtitle="Tester 1, Tester 2, ..."
-                  text="This is a project made @ HTWG - Lake of Constance and is a test card to see if this is working !"
+                  subtitle="Oskar Borkenhagen, Paula Tröster"
+                  text="Datenvisualisierung"
                   title="Gruppe-7"
     >
     </OverviewCard>
-    <OverviewCard image="test.png"
+    <OverviewCard image="TODO"
                   route="/group/8"
-                  subtitle="Tester 1, Tester 2, ..."
-                  text="This is a project made @ HTWG - Lake of Constance and is a test card to see if this is working !"
+                  subtitle="Konstantin Zabaznov"
+                  text="KI-Modell / Input Klang oder Sprache"
                   title="Gruppe-8"
+    >
+    </OverviewCard>
+    <OverviewCard image="TODO"
+                  route="/group/9"
+                  subtitle="Anna-Lisa Renner"
+                  text="Moiré/Stiftplotter/Coden"
+                  title="Gruppe-9"
     >
     </OverviewCard>
   </v-row>

@@ -2,15 +2,16 @@
   <v-col :align="'center'" :justify="'center'" class="px-16 pb-16">
     <h1>Gruppe {{ group }}</h1>
     <p>
-      {{ description }}
+      {{ json?.description }}
     </p>
   </v-col>
   <v-row :align="'center'" :justify="'center'" class="fill-height border-t">
     <iframe
+        v-for="ifr in json.iframe"
         :allowfullscreen="'true'"
-        :height="json.iframe.height"
-        :src="json.iframe.src"
-        :width="json.iframe.width"
+        :height="ifr.height"
+        :src="ifr.src"
+        :width="ifr.width"
         class="rounded ma-5 border"
         name="p5js"
     ></iframe>
@@ -27,15 +28,10 @@ export default {
       type: String,
       required: true
     },
-    description: {
-      type: String,
-      default: "No description available.",
-      required: false
-    }
   },
   data() {
     return {
-      json: groups[this.group]
+      json: groups[this.group] || {}
     }
   },
 }
