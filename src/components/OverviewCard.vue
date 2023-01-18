@@ -1,5 +1,5 @@
 <template>
-  <v-card width="400px" class="ma-6">
+  <v-card width="380px" class="ma-6">
     <v-img
       :src="getImg()"
       alt="Project Preview"

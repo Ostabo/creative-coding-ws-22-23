@@ -1,21 +1,25 @@
 <template>
   <v-app>
-    <v-app-bar>
+    <v-app-bar
+        class="px-2"
+        :title="'Creative Coding'"
+        :collapse="true">
       <v-btn :icon="'mdi-home'" to="/">
       </v-btn>
-      <v-spacer></v-spacer>
-      <v-btn
-          :prepend-icon="theme.global.current.value.dark ? 'mdi-weather-night' : 'mdi-weather-sunny'"
-          @click="toggleTheme"
-      >Toggle Theme
+      <v-btn :icon="'mdi-format-list-text'" to="/weekly">
       </v-btn>
     </v-app-bar>
 
     <v-main>
-      <v-container class="d-flex justify-center align-center flex-column">
-        <RouterView/>
+      <v-container :fluid="true">
+        <v-row :align="'center'" :justify="'center'">
+          <RouterView/>
+        </v-row>
       </v-container>
     </v-main>
+    <v-footer class="justify-center">
+      2023 - HTWG Konstanz
+    </v-footer>
   </v-app>
 </template>
 
@@ -27,14 +31,6 @@ export default {
   name: "App",
   components: {
     RouterView
-  },
-  setup() {
-    const theme = useTheme()
-
-    return {
-      theme,
-      toggleTheme: () => theme.global.name.value = theme.global.current.value.dark ? 'light' : 'dark'
-    }
   }
 }
 </script>
