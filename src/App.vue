@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <v-app-bar
-        class="px-2"
+        :collapse="true"
         :title="'Creative Coding'"
-        :collapse="true">
+        class="px-2">
       <v-btn :icon="'mdi-home'" to="/">
       </v-btn>
       <v-btn :icon="'mdi-format-list-text'" to="/weekly">
@@ -12,9 +12,7 @@
 
     <v-main>
       <v-container :fluid="true">
-        <v-row :align="'center'" :justify="'center'">
-          <RouterView/>
-        </v-row>
+        <RouterView/>
       </v-container>
     </v-main>
     <v-footer class="justify-center">
@@ -25,7 +23,6 @@
 
 <script>
 import {RouterView} from "vue-router";
-import {useTheme} from "vuetify";
 
 export default {
   name: "App",

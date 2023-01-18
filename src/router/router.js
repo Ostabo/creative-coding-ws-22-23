@@ -1,10 +1,11 @@
-import { createRouter, createWebHistory } from "vue-router";
+import {createRouter, createWebHashHistory} from "vue-router";
 import GroupView from "@/views/GroupView.vue";
 import MainView from "@/views/MainView.vue";
 import WeeklyView from "@/views/WeeklyView.vue";
+import NotFoundView from "@/views/NotFoundView.vue";
 
 const router = createRouter({
-    history: createWebHistory(import.meta.env.BASE_URL),
+    history: createWebHashHistory(import.meta.env.BASE_URL),
     routes: [
         {
             path: "/",
@@ -20,12 +21,15 @@ const router = createRouter({
             path: "/group/:group",
             name: "group",
             component: GroupView,
+            props: true,
         },
         {
             path: "/:pathMatch(.*)*",
-            redirect: "/",
+            name: "not-found",
+            component: NotFoundView,
         },
     ],
+    strict: true,
 });
 
 export default router;

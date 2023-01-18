@@ -1,16 +1,18 @@
 <template>
-  <v-card width="380px" class="ma-6">
+  <v-card class="ma-6" min-width="300" width="380px">
     <v-img
-      :src="getImg()"
-      alt="Project Preview"
-      max-height="300px">
+        :cover="true"
+        :lazy-src="'https://via.placeholder.com/380x220.webp?text=Loading...'"
+        :src="getImg()"
+        alt="Project Preview"
+        height="220px">
     </v-img>
-    <v-card-title>{{title}}</v-card-title>
-    <v-card-subtitle>{{subtitle}}</v-card-subtitle>
-    <v-card-text>{{text}}</v-card-text>
+    <v-card-title>{{ title }}</v-card-title>
+    <v-card-subtitle>{{ subtitle }}</v-card-subtitle>
+    <v-card-text>{{ text }}</v-card-text>
     <v-card-actions>
-      <RouterLink :to="route" custom v-slot="{ navigate }">
-        <v-btn color="primary" @click="navigate" @keypress.enter="navigate" role="link">VIEW</v-btn>
+      <RouterLink v-slot="{ navigate }" :to="route" custom>
+        <v-btn color="primary" role="link" @click="navigate" @keypress.enter="navigate">VIEW</v-btn>
       </RouterLink>
     </v-card-actions>
   </v-card>
