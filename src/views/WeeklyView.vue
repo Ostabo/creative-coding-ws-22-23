@@ -1,5 +1,5 @@
 <template>
-  <v-col :align="'center'" :justify="'center'">
+  <v-col :align="'center'">
     <WeekComponent v-for="i in 6" :key="i" :week="i"></WeekComponent>
   </v-col>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <v-row :align="'center'" :justify="'center'" class="px-16 pb-16">
+  <v-row :align="'center'" :justify="'space-evenly'" class="ma-6">
     <h1 class="mb-5">Creative Coding</h1>
     <p class="text-justify">
       Lorem epsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -19,7 +19,7 @@
       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
   </v-row>
-  <v-row :align="'center'" :justify="'center'" class="border-t">
+  <v-row :align="'center'" :justify="'space-evenly'" class="border-t">
     <OverviewCard image="TODO"
                   route="/group/1"
                   subtitle="Linda Sommerhalter "

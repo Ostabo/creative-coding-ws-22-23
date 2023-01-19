@@ -2,7 +2,7 @@
   <v-col :align="'center'" :justify="'center'" class="px-16 pb-16">
     <h1>Gruppe {{ group }}</h1>
     <p>
-      {{ json?.description }}
+      {{ json.description }}
     </p>
   </v-col>
   <v-row :align="'center'" :justify="'center'" class="fill-height border-t">
