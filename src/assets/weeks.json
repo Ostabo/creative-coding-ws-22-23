@@ -14,12 +14,6 @@
         "name": "Marcel",
         "pdf": [
           "mb_font.pdf"
-        ],
-        "iframe": [
-          {
-            "thumbnail": "p5js.png",
-            "src": "https://editor.p5js.org/Ostabo/full/CN4KWKpCe"
-          }
         ]
       }
     ]
@@ -55,6 +49,52 @@
           {
             "thumbnail": "ob_thumb_sound.png",
             "src": "https://editor.p5js.org/Ostabo/full/CN4KWKpCe"
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "description": "Text Visualization",
+    "people": [
+      {
+        "name": "Oskar",
+        "iframe": [
+          {
+            "thumbnail": "ob_text.png",
+            "src": "https://editor.p5js.org/Ostabo/full/u-hsqeljh"
+          }
+        ]
+      }
+    ]
+  },
+  "5": {
+    "description": "Video",
+    "people": [
+      {
+        "name": "Oskar",
+        "iframe": [
+          {
+            "thumbnail": "ob_vid_1.png",
+            "src": "https://editor.p5js.org/Ostabo/full/P7lsXxqgp"
+          },
+          {
+            "thumbnail": "ob_vid_2.png",
+            "src": "https://editor.p5js.org/Ostabo/full/GkY2gyxui"
+          }
+        ]
+      }
+    ]
+  },
+  "6": {
+    "description": "Data Visualization",
+    "people": [
+      {
+        "name": "Oskar",
+        "iframe": [
+          {
+            "thumbnail": "ob_data.png",
+            "src": "https://editor.p5js.org/Ostabo/full/XCFpEhiyD"
           }
         ]
       }
