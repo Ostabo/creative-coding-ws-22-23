@@ -16,7 +16,9 @@
       </v-container>
     </v-main>
     <v-footer class="justify-center">
-      2023 - HTWG Konstanz
+      <v-label>HTWG Konstanz</v-label>
+      <v-spacer></v-spacer>
+      <v-label>2023</v-label>
     </v-footer>
   </v-app>
 </template>
