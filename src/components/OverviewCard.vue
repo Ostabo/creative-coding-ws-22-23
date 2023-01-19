@@ -10,7 +10,7 @@
             height="220px">
         </v-img>
         <v-card-title>{{ title }}</v-card-title>
-        <v-card-subtitle>{{ subtitle }}</v-card-subtitle>
+        <v-card-subtitle :title="subtitle" class="flex-wrap">{{ subtitle }}</v-card-subtitle>
         <v-card-actions class="ms-2">{{ text }}
           <v-spacer></v-spacer>
           <RouterLink v-slot="{ navigate }" :to="route" custom>

@@ -1,13 +1,13 @@
 <template>
   <v-app>
-    <v-app-bar
-        :collapse="true"
-        :title="'Creative Coding'"
-        class="px-2">
-      <v-btn :icon="'mdi-home'" to="/">
-      </v-btn>
-      <v-btn :icon="'mdi-format-list-text'" to="/weekly">
-      </v-btn>
+    <v-app-bar :collapse="collapse">
+      <v-app-bar-nav-icon :icon="'mdi-home'" to="/">
+      </v-app-bar-nav-icon>
+      <v-app-bar-nav-icon :icon="'mdi-format-list-text'" to="/weekly">
+      </v-app-bar-nav-icon>
+      <v-app-bar-title class="mx-5">Creative Coding</v-app-bar-title>
+      <v-spacer></v-spacer>
+      <v-label class="mx-5">{{ $route.name }}</v-label>
     </v-app-bar>
 
     <v-main>
@@ -28,7 +28,23 @@ export default {
   name: "App",
   components: {
     RouterView
-  }
+  },
+  data() {
+    return {
+      collapse: false
+    }
+  },
+  mounted() {
+    window.addEventListener("scroll", this.onScroll)
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.onScroll)
+  },
+  methods: {
+    onScroll(e) {
+      this.collapse = e.target.documentElement.scrollTop > 100
+    },
+  },
 }
 </script>
 

@@ -1,6 +1,7 @@
 <template>
   <h2 class="ma-10">Abgabe {{ week }}</h2>
-  <v-row v-for="person in json" :key="person" :align="'center'" :justify="'center'" class="border rounded">
+  <p>{{ json.description }}</p>
+  <v-row v-for="person in json.people" :key="person" :align="'center'" :justify="'center'" class="border rounded ma-5">
     <h3 class="text-disabled w-100 text-start ms-2">{{ person.name }}</h3>
     <v-card v-for="img in person.img" class="ma-6" min-width="300"
             @click="overlay[img] = true">
@@ -8,8 +9,8 @@
           :cover="true"
           :lazy-src="'https://via.placeholder.com/380x220.webp?text=Loading...'"
           :src="getImg(img)"
-          max-height="220px"
-          max-width="380px"
+          height="220px"
+          width="380px"
       >
       </v-img>
     </v-card>
@@ -20,13 +21,21 @@
           :cover="true"
           :lazy-src="'https://via.placeholder.com/380x220.webp?text=Loading...'"
           :src="getImg(ifr.thumbnail)"
-          max-height="220px"
-          max-width="380px"
+          height="220px"
+          width="380px"
       >
       </v-img>
     </v-card>
 
-    <v-dialog v-for="ifr in person.iframe" v-model="overlay[ifr.src]">
+    <v-card v-for="pdf in person.pdf" class="ma-6" min-width="300"
+            @click="overlay[pdf] = true">
+      <v-icon :icon="'mdi-file-pdf-box'"
+              :size="220"
+              class="text-center pdf-icon">
+      </v-icon>
+    </v-card>
+
+    <v-dialog v-for="ifr in person.iframe" v-model="overlay[ifr.src]" :scrollable="true">
       <v-card>
         <v-toolbar>
           <v-toolbar-title>{{ ifr.title }}</v-toolbar-title>
@@ -44,7 +53,8 @@
         ></iframe>
       </v-card>
     </v-dialog>
-    <v-dialog v-for="img in person.img" v-model="overlay[img]">
+
+    <v-dialog v-for="img in person.img" v-model="overlay[img]" :scrollable="true">
       <v-card>
         <v-toolbar>
           <v-spacer></v-spacer>
@@ -59,14 +69,29 @@
         </v-img>
       </v-card>
     </v-dialog>
+
+    <v-dialog v-for="pdf in person.pdf" v-model="overlay[pdf]" :scrollable="true">
+      <v-card>
+        <v-toolbar>
+          <v-spacer></v-spacer>
+          <v-btn icon @click="overlay[pdf] = false">
+            <v-icon>mdi-close</v-icon>
+          </v-btn>
+        </v-toolbar>
+        <VuePdfEmbed :source="getPdf(pdf)"/>
+      </v-card>
+    </v-dialog>
+
   </v-row>
 </template>
 
 <script>
 import week from "../assets/weeks.json";
+import VuePdfEmbed from "vue-pdf-embed";
 
 export default {
   name: "WeekComponent",
+  components: {VuePdfEmbed},
   props: {
     week: {
       type: Number,
@@ -82,10 +107,17 @@ export default {
   methods: {
     getImg(img) {
       return new URL(`../assets/images/${img}`, import.meta.url).href
+    },
+    getPdf(pdf) {
+      return new URL(`../assets/pdfs/${pdf}`, import.meta.url).href
     }
   }
 }
 </script>
 
 <style scoped>
+.pdf-icon {
+  width: 380px !important;
+  height: 220px !important;
+}
 </style>

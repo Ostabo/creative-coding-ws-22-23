@@ -9,23 +9,23 @@ const router = createRouter({
     routes: [
         {
             path: "/",
-            name: "home",
+            name: "Home",
             component: MainView,
         },
         {
             path: "/weekly",
-            name: "weekly",
+            name: "Wochenprojekte",
             component: WeeklyView,
         },
         {
             path: "/group/:group",
-            name: "group",
+            name: "Gruppenprojekt",
             component: GroupView,
             props: true,
         },
         {
             path: "/:pathMatch(.*)*",
-            name: "not-found",
+            name: "404",
             component: NotFoundView,
         },
     ],

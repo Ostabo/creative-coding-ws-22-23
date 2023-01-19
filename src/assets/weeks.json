@@ -1,25 +1,63 @@
 {
   "1": {
-    "oskar": {
-      "name": "Oskar",
-      "img": [
-        "ob-font-1.png",
-        "ob-font-2.png",
-        "ob-font-3.png"
-      ]
-    }
+    "description": "Font Designs",
+    "people": [
+      {
+        "name": "Oskar",
+        "img": [
+          "ob-font-1.png",
+          "ob-font-2.png",
+          "ob-font-3.png"
+        ]
+      },
+      {
+        "name": "Marcel",
+        "pdf": [
+          "mb_font.pdf"
+        ],
+        "iframe": [
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/Ostabo/full/CN4KWKpCe"
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "description": "Permutation",
+    "people": [
+      {
+        "name": "Oskar",
+        "iframe": [
+          {
+            "thumbnail": "ob_perm_1.png",
+            "src": "https://editor.p5js.org/Ostabo/full/kZu6jBuBW"
+          },
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/Ostabo/full/PbY69xloD"
+          },
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/Ostabo/full/siZmWcp3T"
+          }
+        ]
+      }
+    ]
   },
   "3": {
-    "oskar": {
-      "name": "Oskar",
-      "iframe": [
-        {
-          "thumbnail": "test.png",
-          "src": "https://editor.p5js.org/Ostabo/full/CN4KWKpCe",
-          "width": "358",
-          "height": "400"
-        }
-      ]
-    }
+    "description": "Sound Visualizations",
+    "people": [
+      {
+        "name": "Oskar",
+        "iframe": [
+          {
+            "thumbnail": "ob_thumb_sound.png",
+            "src": "https://editor.p5js.org/Ostabo/full/CN4KWKpCe"
+          }
+        ]
+      }
+    ]
   }
 }
