@@ -1,7 +1,10 @@
 <template>
   <h2 class="ma-10">Abgabe {{ week }}</h2>
   <p>{{ json.description }}</p>
-  <v-row v-for="person in json.people" :key="person" :align="'center'" :justify="'center'" class="border rounded ma-5">
+  <v-row v-for="person in json.people" :key="person"
+         :align="'center'"
+         :justify="'center'"
+         class="border rounded my-5">
     <h3 class="text-disabled w-100 text-start ms-2">{{ person.name }}</h3>
     <v-card v-for="img in person.img" class="ma-6" min-width="300"
             @click="overlay[img] = true">
@@ -27,11 +30,11 @@
       </v-img>
     </v-card>
 
-    <v-card v-for="pdf in person.pdf" class="ma-6" min-width="300"
+    <v-card v-for="pdf in person.pdf" class="ma-6" height="220" min-width="300" width="380"
             @click="overlay[pdf] = true">
       <v-icon :icon="'mdi-file-pdf-box'"
               :size="220"
-              class="text-center pdf-icon">
+              class="text-center">
       </v-icon>
     </v-card>
 
@@ -106,18 +109,14 @@ export default {
   },
   methods: {
     getImg(img) {
-      return new URL(`../assets/images/${img}`, import.meta.url).href
+      return img.startsWith('http') ? img : new URL(`../assets/images/${img}`, import.meta.url).href
     },
     getPdf(pdf) {
-      return new URL(`../assets/pdfs/${pdf}`, import.meta.url).href
+      return pdf.startsWith('http') ? pdf : new URL(`../assets/pdfs/${pdf}`, import.meta.url).href
     }
   }
 }
 </script>
 
 <style scoped>
-.pdf-icon {
-  width: 380px !important;
-  height: 220px !important;
-}
 </style>

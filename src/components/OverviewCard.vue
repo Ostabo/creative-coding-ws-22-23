@@ -5,7 +5,7 @@
         <v-img
             :cover="true"
             :lazy-src="'https://via.placeholder.com/380x220.webp?text=Loading...'"
-            :src="getImg()"
+            :src="getImg(image)"
             alt="Project Preview"
             height="220px">
         </v-img>
@@ -29,6 +29,14 @@
 <script>
 export default {
   name: "OverviewCard",
+  methods: {
+    getImg(img) {
+      return img.startsWith('http') ? img : new URL(`../assets/images/${img}`, import.meta.url).href
+    },
+    getPdf(pdf) {
+      return pdf.startsWith('http') ? pdf : new URL(`../assets/pdfs/${pdf}`, import.meta.url).href
+    }
+  },
   props: {
     title: {
       type: String,
@@ -49,11 +57,6 @@ export default {
     route: {
       type: String,
       required: true
-    }
-  },
-  methods: {
-    getImg() {
-      return new URL(`../assets/images/${this.image}`, import.meta.url).href
     }
   }
 }

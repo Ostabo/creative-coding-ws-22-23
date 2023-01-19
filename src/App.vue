@@ -5,7 +5,7 @@
       </v-app-bar-nav-icon>
       <v-app-bar-nav-icon :icon="'mdi-format-list-text'" to="/weekly">
       </v-app-bar-nav-icon>
-      <v-app-bar-title class="mx-5">Creative Coding</v-app-bar-title>
+      <v-app-bar-title v-if="!$vuetify.display.xs" class="mx-5">Creative Coding</v-app-bar-title>
       <v-spacer></v-spacer>
       <v-label class="mx-5">{{ $route.name }}</v-label>
     </v-app-bar>
@@ -43,8 +43,8 @@ export default {
   methods: {
     onScroll(e) {
       this.collapse = e.target.documentElement.scrollTop > 100
-    },
-  },
+    }
+  }
 }
 </script>
 
