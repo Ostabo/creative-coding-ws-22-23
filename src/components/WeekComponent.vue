@@ -1,5 +1,5 @@
 <template>
-  <h2 class="ma-10">Abgabe {{ week }}</h2>
+  <h2 class="ma-10">Woche {{ week }}</h2>
   <p>{{ json.description }}</p>
   <v-row v-for="person in json.people" :key="person"
          :align="'center'"
@@ -38,13 +38,14 @@
       </v-icon>
     </v-card>
 
-    <v-dialog v-for="ifr in person.iframe" v-model="overlay[ifr.src]" :scrollable="true">
+    <v-dialog v-for="ifr in person.iframe" v-model="overlay[ifr.src]" :scrollable="true"
+              :width="$vuetify.display.xs || $vuetify.display.sm ? '' : '60%'">
       <v-card>
         <v-toolbar>
           <v-toolbar-title>{{ ifr.title }}</v-toolbar-title>
           <v-spacer></v-spacer>
           <v-btn icon @click="overlay[ifr.src] = false">
-            <v-icon>mdi-close</v-icon>
+            <v-icon :icon="'mdi-close'"></v-icon>
           </v-btn>
         </v-toolbar>
         <iframe
@@ -57,12 +58,13 @@
       </v-card>
     </v-dialog>
 
-    <v-dialog v-for="img in person.img" v-model="overlay[img]" :scrollable="true">
+    <v-dialog v-for="img in person.img" v-model="overlay[img]" :scrollable="true"
+              :width="$vuetify.display.xs || $vuetify.display.sm ? '' : '60%'">
       <v-card>
         <v-toolbar>
           <v-spacer></v-spacer>
           <v-btn icon @click="overlay[img] = false">
-            <v-icon>mdi-close</v-icon>
+            <v-icon :icon="'mdi-close'"></v-icon>
           </v-btn>
         </v-toolbar>
         <v-img
@@ -73,12 +75,18 @@
       </v-card>
     </v-dialog>
 
-    <v-dialog v-for="pdf in person.pdf" v-model="overlay[pdf]" :scrollable="true">
+    <v-dialog v-for="pdf in person.pdf" v-model="overlay[pdf]" :scrollable="true"
+              :width="$vuetify.display.xs || $vuetify.display.sm ? '' : '60%'">
       <v-card>
         <v-toolbar>
+          <v-btn :href="getPdf(pdf)"
+                 download
+                 icon>
+            <v-icon :icon="'mdi-download'"></v-icon>
+          </v-btn>
           <v-spacer></v-spacer>
           <v-btn icon @click="overlay[pdf] = false">
-            <v-icon>mdi-close</v-icon>
+            <v-icon :icon="'mdi-close'"></v-icon>
           </v-btn>
         </v-toolbar>
         <VuePdfEmbed :source="getPdf(pdf)"/>
