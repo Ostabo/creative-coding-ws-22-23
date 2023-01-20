@@ -4,7 +4,7 @@
   <v-row v-for="person in json.people" :key="person"
          :align="'center'"
          :justify="'center'"
-         class="border rounded my-5">
+         class="border-t rounded my-5">
     <h3 class="text-disabled w-100 text-start ms-2">{{ person.name }}</h3>
     <v-card v-for="img in person.img" class="ma-6" min-width="300"
             @click="overlay[img] = true">
