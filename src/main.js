@@ -33,7 +33,19 @@ const vuetify = createVuetify({
     theme: {
         defaultTheme: 'ccTheme',
         themes: {
-            ccTheme
+            ccTheme,
+            carousel: {
+                colors: {
+                    background: '#e3e3e4',
+                    surface: '#fdfdfe',
+                    primary: '#e3e3e4',
+                    secondary: '#3f3f40',
+                    error: '#77434b',
+                    info: '#86adc2',
+                    success: '#78b079',
+                    warning: '#deaf72'
+                }
+            }
         }
     },
     icons: {
