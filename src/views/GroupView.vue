@@ -2,13 +2,14 @@
   <v-col :align="'center'" :justify="'center'">
     <h1 class="mb-5">Gruppe {{ group }}</h1>
     <v-label class="mb-5">{{ json.people }}</v-label>
-    <v-responsive :max-width="dynamicWidth" class="text-justify border-t border-b py-5 paragraph">
+    <v-responsive v-if="json.description" :max-width="dynamicWidth"
+                  class="text-justify border-t border-b py-5 paragraph">
       <p>
         {{ json.description }}
       </p>
     </v-responsive>
   </v-col>
-  <v-row :align="'center'" :justify="'center'" class="fill-height">
+  <v-row v-if="json.img" :align="'center'" :justify="'center'" class="fill-height">
     <v-responsive :max-width="dynamicWidth" class="text-justify border-b pa-5 pb-10 ma-5 paragraph">
       <v-carousel class="rounded v-card--variant-elevated change-carousel-theme"
                   color="surface"
@@ -28,10 +29,11 @@
       </p>
     </v-responsive>
   </v-row>
-  <v-row :align="'center'" :justify="'center'" class="fill-height py-5">
+  <v-row v-if="json.iframe" :align="'center'" :justify="'center'" class="fill-height py-5">
     <iframe
         v-for="ifr in json.iframe"
         :allowfullscreen="'true'"
+        :height="json.customIframeHeight || '1000px'"
         :src="ifr"
         :width="dynamicWidth"
         class="rounded ma-5 border frame v-card--variant-elevated"

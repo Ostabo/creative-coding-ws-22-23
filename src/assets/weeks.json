@@ -3,18 +3,98 @@
     "description": "Font Designs",
     "people": [
       {
-        "name": "Oskar",
+        "name": "Oskar Borkenhagen",
         "img": [
           "ob-font-1.png",
           "ob-font-2.png",
           "ob-font-3.png"
-        ]
+        ],
+        "iframe": [],
+        "pdf": []
       },
       {
-        "name": "Marcel",
-        "pdf": [
-          "mb_font.pdf"
-        ]
+        "name": "Linda Sommerhalter",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nicolas Müller",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marcel Biselli",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Elisabeth Schmidt",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Emanuel Kupke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marius Emonts",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lukas Schwarz",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Pfeifer Jan",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Kim Joy Serden",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lilli Marutschke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nadine Görzen",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Paula Tröster",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Konstantin Zabaznov",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Anna-Lisa Renner",
+        "img": [],
+        "iframe": [],
+        "pdf": []
       }
     ]
   },
@@ -22,7 +102,8 @@
     "description": "Permutation",
     "people": [
       {
-        "name": "Oskar",
+        "name": "Oskar Borkenhagen",
+        "img": [],
         "iframe": [
           {
             "thumbnail": "ob_perm_1.png",
@@ -36,7 +117,94 @@
             "thumbnail": "p5js.png",
             "src": "https://editor.p5js.org/Ostabo/full/siZmWcp3T"
           }
+        ],
+        "pdf": []
+      },
+      {
+        "name": "Linda Sommerhalter",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nicolas Müller",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marcel Biselli",
+        "img": [],
+        "iframe": [],
+        "pdf": [
+          "mb_font.pdf"
         ]
+      },
+      {
+        "name": "Elisabeth Schmidt",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Emanuel Kupke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marius Emonts",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lukas Schwarz",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Pfeifer Jan",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Kim Joy Serden",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lilli Marutschke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nadine Görzen",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Paula Tröster",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Konstantin Zabaznov",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Anna-Lisa Renner",
+        "img": [],
+        "iframe": [],
+        "pdf": []
       }
     ]
   },
@@ -44,13 +212,99 @@
     "description": "Sound Visualizations",
     "people": [
       {
-        "name": "Oskar",
+        "name": "Oskar Borkenhagen",
+        "img": [],
         "iframe": [
           {
             "thumbnail": "ob_thumb_sound.png",
             "src": "https://editor.p5js.org/Ostabo/full/CN4KWKpCe"
           }
-        ]
+        ],
+        "pdf": []
+      },
+      {
+        "name": "Linda Sommerhalter",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nicolas Müller",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marcel Biselli",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Elisabeth Schmidt",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Emanuel Kupke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marius Emonts",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lukas Schwarz",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Pfeifer Jan",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Kim Joy Serden",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lilli Marutschke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nadine Görzen",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Paula Tröster",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Konstantin Zabaznov",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Anna-Lisa Renner",
+        "img": [],
+        "iframe": [],
+        "pdf": []
       }
     ]
   },
@@ -58,13 +312,99 @@
     "description": "Text Visualization",
     "people": [
       {
-        "name": "Oskar",
+        "name": "Oskar Borkenhagen",
+        "img": [],
         "iframe": [
           {
             "thumbnail": "ob_text.png",
             "src": "https://editor.p5js.org/Ostabo/full/u-hsqeljh"
           }
-        ]
+        ],
+        "pdf": []
+      },
+      {
+        "name": "Linda Sommerhalter",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nicolas Müller",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marcel Biselli",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Elisabeth Schmidt",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Emanuel Kupke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marius Emonts",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lukas Schwarz",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Pfeifer Jan",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Kim Joy Serden",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lilli Marutschke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nadine Görzen",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Paula Tröster",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Konstantin Zabaznov",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Anna-Lisa Renner",
+        "img": [],
+        "iframe": [],
+        "pdf": []
       }
     ]
   },
@@ -72,7 +412,8 @@
     "description": "Video",
     "people": [
       {
-        "name": "Oskar",
+        "name": "Oskar Borkenhagen",
+        "img": [],
         "iframe": [
           {
             "thumbnail": "ob_vid_1.png",
@@ -82,7 +423,92 @@
             "thumbnail": "ob_vid_2.png",
             "src": "https://editor.p5js.org/Ostabo/full/GkY2gyxui"
           }
-        ]
+        ],
+        "pdf": []
+      },
+      {
+        "name": "Linda Sommerhalter",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nicolas Müller",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marcel Biselli",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Elisabeth Schmidt",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Emanuel Kupke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marius Emonts",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lukas Schwarz",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Pfeifer Jan",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Kim Joy Serden",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lilli Marutschke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nadine Görzen",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Paula Tröster",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Konstantin Zabaznov",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Anna-Lisa Renner",
+        "img": [],
+        "iframe": [],
+        "pdf": []
       }
     ]
   },
@@ -90,13 +516,99 @@
     "description": "Data Visualization",
     "people": [
       {
-        "name": "Oskar",
+        "name": "Oskar Borkenhagen",
+        "img": [],
         "iframe": [
           {
             "thumbnail": "ob_data.png",
             "src": "https://editor.p5js.org/Ostabo/full/XCFpEhiyD"
           }
-        ]
+        ],
+        "pdf": []
+      },
+      {
+        "name": "Linda Sommerhalter",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nicolas Müller",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marcel Biselli",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Elisabeth Schmidt",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Emanuel Kupke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Marius Emonts",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lukas Schwarz",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Pfeifer Jan",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Kim Joy Serden",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Lilli Marutschke",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Nadine Görzen",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Paula Tröster",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Konstantin Zabaznov",
+        "img": [],
+        "iframe": [],
+        "pdf": []
+      },
+      {
+        "name": "Anna-Lisa Renner",
+        "img": [],
+        "iframe": [],
+        "pdf": []
       }
     ]
   }

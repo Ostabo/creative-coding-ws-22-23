@@ -22,63 +22,63 @@
     </v-responsive>
   </v-col>
   <v-row :align="'center'" :justify="'space-evenly'">
-    <OverviewCard image="TODO"
+    <OverviewCard :image="json['1']?.thumbnail || ''"
                   route="/group/1"
                   subtitle="Linda Sommerhalter "
                   text="Schriftgestaltung"
                   title="Gruppe-1"
     >
     </OverviewCard>
-    <OverviewCard image="TODO"
+    <OverviewCard :image="json['2']?.thumbnail || ''"
                   route="/group/2"
                   subtitle="Nicolas Müller, Marcel Biselli"
                   text="Typografie"
                   title="Gruppe-2"
     >
     </OverviewCard>
-    <OverviewCard image="TODO"
+    <OverviewCard :image="json['3']?.thumbnail || ''"
                   route="/group/3"
                   subtitle="Elisabeth Schmidt, Emanuel Kupke"
                   text="Soundvisualisierung"
                   title="Gruppe-3"
     >
     </OverviewCard>
-    <OverviewCard image="TODO"
+    <OverviewCard :image="json['4']?.thumbnail || ''"
                   route="/group/4"
                   subtitle="Marius Emonts"
                   text="Soundvisualisierung"
                   title="Gruppe-4"
     >
     </OverviewCard>
-    <OverviewCard image="TODO"
+    <OverviewCard :image="json['5']?.thumbnail || ''"
                   route="/group/5"
                   subtitle="Lukas Schwarz"
                   text="Soundvis. mit Arduino+Touchdesigner"
                   title="Gruppe-5"
     >
     </OverviewCard>
-    <OverviewCard image="TODO"
+    <OverviewCard :image="json['6']?.thumbnail || ''"
                   route="/group/6"
                   subtitle="Pfeifer Jan, Kim Joy Serden, Lilli Marutschke, Nadine Görzen"
                   text="Poster (Sapere Aude)"
                   title="Gruppe-6"
     >
     </OverviewCard>
-    <OverviewCard image="test.png"
+    <OverviewCard :image="json['7']?.thumbnail || ''"
                   route="/group/7"
                   subtitle="Oskar Borkenhagen, Paula Tröster"
                   text="Datenvisualisierung"
                   title="Gruppe-7"
     >
     </OverviewCard>
-    <OverviewCard image="TODO"
+    <OverviewCard :image="json['8']?.thumbnail || ''"
                   route="/group/8"
                   subtitle="Konstantin Zabaznov"
                   text="KI-Modell / Input Klang oder Sprache"
                   title="Gruppe-8"
     >
     </OverviewCard>
-    <OverviewCard image="TODO"
+    <OverviewCard :image="json['9']?.thumbnail || ''"
                   route="/group/9"
                   subtitle="Anna-Lisa Renner"
                   text="Moiré/Stiftplotter/Coden"
@@ -89,10 +89,16 @@
 </template>
 <script>
 import OverviewCard from "@/components/OverviewCard.vue";
+import groups from "../assets/groups.json";
 
 export default {
   name: "MainView",
   components: {OverviewCard},
+  data() {
+    return {
+      json: groups
+    }
+  },
   computed: {
     dynamicWidth() {
       return this.$vuetify.display.xs ? '100%' : '60%'

@@ -42,7 +42,9 @@
               :width="$vuetify.display.xs || $vuetify.display.sm ? '' : '60%'">
       <v-card>
         <v-toolbar>
-          <v-toolbar-title>{{ ifr.title }}</v-toolbar-title>
+          <v-btn :href="ifr.src" icon target="_blank">
+            <v-icon :icon="'mdi-open-in-new'"></v-icon>
+          </v-btn>
           <v-spacer></v-spacer>
           <v-btn icon @click="overlay[ifr.src] = false">
             <v-icon :icon="'mdi-close'"></v-icon>
