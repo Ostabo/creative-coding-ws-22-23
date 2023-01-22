@@ -6,14 +6,19 @@
          :justify="'center'"
          class="border-t rounded my-5">
     <h3 class="text-disabled w-100 text-start ms-2">{{ person.name }}</h3>
-    <v-card v-for="img in person.img" class="ma-6" min-width="300"
+    <v-card v-for="img in person.img" class="ma-6" height="220" min-width="300" width="380"
             @click="overlay[img] = true">
-      <v-img
-          :cover="true"
-          :lazy-src="'https://via.placeholder.com/380x220.webp?text=Loading...'"
-          :src="getImg(img)"
-          height="220px"
-          width="380px"
+      <v-icon v-if="img.toString().endsWith('.gif')"
+              :icon="'mdi-file-gif-box'"
+              :size="220"
+              class="text-center">
+      </v-icon>
+      <v-img v-else
+             :cover="true"
+             :lazy-src="'https://via.placeholder.com/380x220.webp?text=Loading...'"
+             :src="getImg(img)"
+             height="220px"
+             width="380px"
       >
       </v-img>
     </v-card>
