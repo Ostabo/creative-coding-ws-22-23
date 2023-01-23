@@ -26,9 +26,14 @@
       },
       {
         "name": "Marcel Biselli",
-        "img": [],
+        "img": [
+          "mb_font-1.png",
+          "mb_font-2.png"
+        ],
         "iframe": [],
-        "pdf": []
+        "pdf": [
+          "mb_font-1.pdf"
+        ]
       },
       {
         "name": "Elisabeth Schmidt",
@@ -135,9 +140,22 @@
       {
         "name": "Marcel Biselli",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "mb_perm-1.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/jrLDOaVON"
+          },
+          {
+            "thumbnail": "mb_perm-2.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/EI2j1fnBc"
+          },
+          {
+            "thumbnail": "mb_perm-3.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/PgWtyOk28"
+          }
+        ],
         "pdf": [
-          "mb_font.pdf"
+          "mb_perm-1.pdf"
         ]
       },
       {
