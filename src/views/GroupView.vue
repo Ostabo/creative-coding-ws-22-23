@@ -1,6 +1,6 @@
 <template>
   <v-col :align="'center'" :justify="'center'">
-    <h1 class="mb-5">Gruppe {{ group }}</h1>
+    <h1 class="mb-5">{{ json.title || 'Gruppe ' + group }}</h1>
     <v-label class="mb-5">{{ json.people }}</v-label>
     <v-responsive v-if="json.description" :max-width="dynamicWidth"
                   class="text-justify border-t border-b py-5 paragraph">
@@ -9,7 +9,7 @@
       </p>
     </v-responsive>
   </v-col>
-  <v-row v-if="json.img" :align="'center'" :justify="'center'" class="fill-height">
+  <v-row v-if="json.img.length > 0" :align="'center'" :justify="'center'" class="fill-height">
     <v-responsive :max-width="dynamicWidth" class="text-justify border-b pa-5 pb-10 ma-5 paragraph">
       <v-carousel class="rounded v-card--variant-elevated change-carousel-theme"
                   color="surface"
