@@ -9,9 +9,9 @@
             alt="Project Preview"
             height="220px">
         </v-img>
-        <v-card-title>{{ title }}</v-card-title>
+        <v-card-title :title="title">{{ title }}</v-card-title>
         <v-card-subtitle :title="subtitle" class="flex-wrap">{{ subtitle }}</v-card-subtitle>
-        <v-card-actions class="ms-2">{{ text }}
+        <v-card-actions :title="text" class="ms-2">{{ text }}
           <v-spacer></v-spacer>
           <RouterLink v-slot="{ navigate }" :to="route" custom>
             <v-btn :icon="'mdi-location-enter'"
