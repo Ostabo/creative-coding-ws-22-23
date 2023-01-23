@@ -1,6 +1,7 @@
 <template>
   <v-col :align="'center'" :justify="'center'">
-    <h1 class="mb-5">{{ json.title || 'Gruppe ' + group }}</h1>
+    <h1 class="mb-2">{{ json.title || 'Gruppe ' + group }}</h1>
+    <h2 class="mb-5 text-subtitle-1 font-weight-thin">- {{ json.theme }} -</h2>
     <v-label class="mb-5">{{ json.people }}</v-label>
     <v-responsive v-if="json.description" :max-width="dynamicWidth"
                   class="text-justify border-t border-b py-5 paragraph">
