@@ -9,7 +9,7 @@ import {createVuetify} from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 import {aliases, mdi} from "vuetify/iconsets/mdi";
-import {md1} from "vuetify/blueprints";
+import {md3} from "vuetify/blueprints";
 
 const ccTheme = {
     dark: false,
@@ -28,7 +28,7 @@ const ccTheme = {
 const vuetify = createVuetify({
     components,
     directives,
-    blueprint: md1,
+    blueprint: md3,
     theme: {
         defaultTheme: 'ccTheme',
         themes: {

@@ -1,7 +1,8 @@
 <template>
   <v-hover v-slot="{ isHovering, props }">
     <RouterLink v-slot="{ navigate }" :to="route" custom>
-      <v-card :hover="isHovering" class="ma-6" min-width="300" v-bind="props" width="380px" @click="navigate">
+      <v-card :hover="isHovering" class="ma-1" min-width="300" v-bind="props" width="380px"
+              @click="navigate">
         <v-img
             :cover="true"
             :lazy-src="'https://via.placeholder.com/380x220.webp?text=Loading...'"

@@ -21,7 +21,7 @@
       </p>
     </v-responsive>
   </v-col>
-  <v-row :align="'center'" :justify="'space-evenly'">
+  <v-row :align="'center'" :justify="'center'">
     <OverviewCard v-for="(group, i) in json"
                   :key="i"
                   :image="group.thumbnail || ''"
@@ -47,7 +47,7 @@ export default {
   },
   computed: {
     dynamicWidth() {
-      return this.$vuetify.display.xs ? '100%' : '60%'
+      return this.$vuetify.display.xs ? '100%' : '500px'
     }
   }
 }
