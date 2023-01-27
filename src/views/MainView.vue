@@ -21,7 +21,7 @@
       </p>
     </v-responsive>
   </v-col>
-  <v-row :align="'center'" :justify="'center'">
+  <v-row :align="'center'" :justify="'center'" class="resp">
     <OverviewCard v-for="(group, i) in json"
                   :key="i"
                   :image="group.thumbnail || ''"
@@ -56,5 +56,10 @@ export default {
 <style scoped>
 .paragraph {
   min-width: 80vmin;
+}
+
+.resp {
+  max-width: 800px;
+  justify-self: center;
 }
 </style>

@@ -11,7 +11,7 @@
     </v-app-bar>
 
     <v-main>
-      <v-container :fluid="true">
+      <v-container :fluid="true" class="d-flex flex-column justify-center align-center">
         <RouterView/>
       </v-container>
     </v-main>

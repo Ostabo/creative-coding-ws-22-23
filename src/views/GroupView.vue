@@ -30,7 +30,7 @@
       </p>
     </v-responsive>
   </v-row>
-  <v-row v-if="json.iframe" :align="'center'" :justify="'center'" class="fill-height py-5">
+  <v-row v-if="json.iframe" :align="'center'" :justify="'center'" class="fill-height py-5 flex-column">
     <iframe
         v-for="ifr in json.iframe"
         :allowfullscreen="'true'"
@@ -61,7 +61,7 @@ export default {
   },
   computed: {
     dynamicWidth() {
-      return this.$vuetify.display.xs ? '100%' : '60%'
+      return this.$vuetify.display.xs ? '100%' : '500px'
     }
   },
   methods: {
