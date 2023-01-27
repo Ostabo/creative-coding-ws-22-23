@@ -1,18 +1,18 @@
 <template>
   <v-col :align="'center'" :justify="'center'">
-    <h1 class="mb-2">{{ json.title || 'Gruppe ' + group }}</h1>
-    <h2 class="mb-5 text-subtitle-1 font-weight-thin">- {{ json.theme }} -</h2>
-    <v-label class="mb-5">{{ json.people }}</v-label>
-    <v-responsive v-if="json.description" :max-width="dynamicWidth"
-                  class="text-justify border-t border-b py-5 paragraph">
+    <h1 class="em-buffer-top">{{ json.title || 'Gruppe ' + group }}</h1>
+    <h2 class="my-5 text-subtitle-1 font-weight-thin">- {{ json.theme }} -</h2>
+    <v-label class="em-buffer-bot">{{ json.people }}</v-label>
+    <v-responsive v-if="json.description" :width="dynamicWidth"
+                  class="text-left border-t py-5 mb-5">
       <p>
         {{ json.description }}
       </p>
     </v-responsive>
   </v-col>
   <v-row v-if="json.img.length > 0" :align="'center'" :justify="'center'" class="fill-height">
-    <v-responsive :max-width="dynamicWidth" class="text-justify border-b pa-5 pb-10 ma-5 paragraph">
-      <v-carousel class="rounded v-card--variant-elevated change-carousel-theme"
+    <v-responsive :width="dynamicFrameWidth" class="text-left">
+      <v-carousel class="change-carousel-theme"
                   color="surface"
                   theme="carousel">
         <v-carousel-item
@@ -24,20 +24,20 @@
     </v-responsive>
   </v-row>
   <v-row v-if="json.filler" :align="'center'" :justify="'center'" class="fill-height">
-    <v-responsive :max-width="dynamicWidth" class="text-justify border-b pa-5 pb-10 paragraph">
+    <v-responsive :max-width="dynamicWidth" class="text-left py-5 mt-5">
       <p>
         {{ json.filler }}
       </p>
     </v-responsive>
   </v-row>
-  <v-row v-if="json.iframe" :align="'center'" :justify="'center'" class="fill-height py-5 flex-column">
+  <v-row v-if="json.iframe" :align="'center'" :justify="'center'" class="fill-height flex-column">
     <iframe
         v-for="ifr in json.iframe"
         :allowfullscreen="'true'"
-        :height="json.customIframeHeight || '1000px'"
+        :height="json.customIframeHeight || '800px'"
         :src="ifr"
-        :width="dynamicWidth"
-        class="rounded ma-5 border frame v-card--variant-elevated"
+        :style="'width:' + dynamicFrameWidth"
+        class="mt-5 border frame"
         name="p5js"
     ></iframe>
   </v-row>
@@ -61,7 +61,10 @@ export default {
   },
   computed: {
     dynamicWidth() {
-      return this.$vuetify.display.xs ? '100%' : '500px'
+      return this.$vuetify.display.xs ? '100%' : '600px'
+    },
+    dynamicFrameWidth() {
+      return this.$vuetify.display.width < 1000 ? '100vw' : '1000px'
     }
   },
   methods: {
@@ -73,12 +76,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.frame {
-  min-width: 80vmin;
-  min-height: 80vmin;
-}
-
-.paragraph {
-  min-width: 80vmin;
-}
 </style>

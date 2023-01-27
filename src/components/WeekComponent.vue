@@ -1,13 +1,13 @@
 <template>
   <v-responsive max-width="1550px">
-    <h2 class="text-left mt-10">Woche {{ week }}</h2>
-    <p class="text-left">{{ json.description }}</p>
+    <h1 class="text-left em-buffer-top">Woche {{ week }}</h1>
+    <div class="text-left em-buffer-bot">{{ json.description }}</div>
     <v-row v-for="person in json.people" :key="person"
            :align="'center'"
            :justify="'center'"
-           class="border-t rounded my-5">
-      <h3 class="text-disabled w-100 text-start ms-4">{{ person.name }}</h3>
-      <v-card v-for="img in person.img" class="ma-1" height="220" min-width="300" width="380"
+           class="border-t my-5">
+      <div class="text-disabled w-100 text-start ms-4">{{ person.name }}</div>
+      <v-card v-for="img in person.img" class="ma-1" elevation="0" height="220" min-width="300" width="380"
               @click="overlay[img] = true">
         <v-icon v-if="img.toString().endsWith('.gif')"
                 :icon="'mdi-file-gif-box'"
@@ -24,7 +24,7 @@
         </v-img>
       </v-card>
 
-      <v-card v-for="ifr in person.iframe" class="ma-1" min-width="300"
+      <v-card v-for="ifr in person.iframe" class="ma-1" elevation="0" min-width="300"
               @click="overlay[ifr.src] = true">
         <v-img
             :cover="true"
@@ -36,7 +36,7 @@
         </v-img>
       </v-card>
 
-      <v-card v-for="pdf in person.pdf" class="ma-1" height="220" min-width="300" width="380"
+      <v-card v-for="pdf in person.pdf" class="ma-1" elevation="0" height="220" min-width="300" width="380"
               @click="overlay[pdf] = true">
         <v-icon :icon="'mdi-file-pdf-box'"
                 :size="220"
@@ -61,7 +61,7 @@
               :height="800"
               :src="ifr.src"
               :width="'100%'"
-              class="rounded border"
+              class="border"
           ></iframe>
         </v-card>
       </v-dialog>

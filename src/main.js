@@ -2,21 +2,22 @@ import {createApp} from 'vue'
 import App from './App.vue'
 
 import router from "@/router/router";
-
+import "@/assets/styles.scss";
 // Vuetify
 import "vuetify/styles";
 import {createVuetify} from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 import {aliases, mdi} from "vuetify/iconsets/mdi";
-import {md3} from "vuetify/blueprints";
+import {md1} from "vuetify/blueprints";
 
 const ccTheme = {
     dark: false,
     colors: {
-        background: '#e3e3e4',
-        surface: '#fdfdfe',
-        primary: '#000001',
+        background: '#ffffff',
+        surface: '#ffffff',
+        'on-surface': '#004594',
+        primary: '#004594',
         secondary: '#3f3f40',
         error: '#77434b',
         info: '#86adc2',
@@ -28,7 +29,7 @@ const ccTheme = {
 const vuetify = createVuetify({
     components,
     directives,
-    blueprint: md3,
+    blueprint: md1,
     theme: {
         defaultTheme: 'ccTheme',
         themes: {

@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar :collapse="collapse">
+    <v-app-bar :collapse="collapse" elevation="0">
       <v-app-bar-nav-icon :icon="'mdi-home'" to="/">
       </v-app-bar-nav-icon>
       <v-app-bar-nav-icon :icon="'mdi-format-list-text'" to="/weekly">

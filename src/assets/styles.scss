@@ -1,0 +1,44 @@
+$font-family: 'Roboto Mono';
+$font-family-headers: 'Ogg Roman';
+$text-color: #004594;
+$gap: 3rem;
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-color !important;
+  font-family: $font-family-headers !important;
+}
+
+.v-application {
+  [class*='text-'] {
+    color: $text-color !important;
+  }
+
+  color: $text-color !important;
+  font-family: $font-family, monospace !important;
+}
+
+.em-buffer-y {
+  margin: $gap 0;
+}
+
+.em-buffer-top {
+  margin-top: $gap;
+}
+
+.em-buffer-bot {
+  margin-bottom: $gap;
+}
+
+@font-face {
+  font-family: 'Ogg Roman';
+  src: url('./Ogg-Roman.ttf');
+  font-weight: auto;
+  font-style: auto;
+}
+
+@font-face {
+  font-family: 'Roboto Mono';
+  src: url('./RobotoMono-Regular.ttf');
+  font-weight: auto;
+  font-style: auto;
+}

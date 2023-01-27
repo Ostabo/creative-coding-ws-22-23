@@ -1,8 +1,8 @@
 <template>
   <v-col :align="'center'" :justify="'space-evenly'" class="mb-6">
-    <h1 class="mb-5">Creative Coding</h1>
-    <v-responsive :max-width="dynamicWidth" class="text-justify border-t border-b py-5 paragraph">
-      <p>
+    <v-responsive :max-width="dynamicWidth" class="text-left">
+      <h1 class="em-buffer-y text-left">Creative Coding</h1>
+      <p class="border-t border-b py-5">
         Lorem epsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -47,19 +47,15 @@ export default {
   },
   computed: {
     dynamicWidth() {
-      return this.$vuetify.display.xs ? '100%' : '500px'
+      return this.$vuetify.display.xs ? '100%' : '600px'
     }
   }
 }
 </script>
 
 <style scoped>
-.paragraph {
-  min-width: 80vmin;
-}
-
 .resp {
-  max-width: 800px;
+  max-width: 1500px;
   justify-self: center;
 }
 </style>
