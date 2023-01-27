@@ -7,7 +7,7 @@
            :justify="'center'"
            class="border-t my-5">
       <div class="text-disabled w-100 text-start ms-4">{{ person.name }}</div>
-      <v-card v-for="img in person.img" class="ma-1" elevation="0" height="220" min-width="300" width="380"
+      <v-card v-for="img in person.img" class="ma-1" elevation="0" height="220" min-width="300" rounded="0" width="380"
               @click="overlay[img] = true">
         <v-icon v-if="img.toString().endsWith('.gif')"
                 :icon="'mdi-file-gif-box'"
@@ -24,7 +24,7 @@
         </v-img>
       </v-card>
 
-      <v-card v-for="ifr in person.iframe" class="ma-1" elevation="0" min-width="300"
+      <v-card v-for="ifr in person.iframe" class="ma-1" elevation="0" min-width="300" rounded="0"
               @click="overlay[ifr.src] = true">
         <v-img
             :cover="true"
@@ -36,7 +36,7 @@
         </v-img>
       </v-card>
 
-      <v-card v-for="pdf in person.pdf" class="ma-1" elevation="0" height="220" min-width="300" width="380"
+      <v-card v-for="pdf in person.pdf" class="ma-1" elevation="0" height="220" min-width="300" rounded="0" width="380"
               @click="overlay[pdf] = true">
         <v-icon :icon="'mdi-file-pdf-box'"
                 :size="220"

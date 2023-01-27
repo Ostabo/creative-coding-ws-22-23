@@ -1,14 +1,14 @@
 <template>
   <v-hover v-slot="{ isHovering, props }">
     <RouterLink v-slot="{ navigate }" :to="route" custom>
-      <v-card :hover="isHovering" :width="dynamicCardWidth" class="ma-1" elevation="0"
+      <v-card :hover="isHovering" :width="dynamicCardWidth" rounded="0" elevation="0"
               v-bind="props"
               @click="navigate">
         <v-img
+            :alt="'Project' + title + 'Preview'"
             :cover="true"
             :lazy-src="'https://via.placeholder.com/450x220.webp?text=Loading...'"
             :src="getImg(image)"
-            alt="Project Preview"
             height="220px">
         </v-img>
         <v-card-title :title="title">{{ title }}</v-card-title>
