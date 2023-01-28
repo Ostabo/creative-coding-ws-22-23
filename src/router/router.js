@@ -30,6 +30,11 @@ const router = createRouter({
         },
     ],
     strict: true,
+    scrollBehavior() {
+        return {
+            top: 0
+        }
+    },
 });
 
 export default router;

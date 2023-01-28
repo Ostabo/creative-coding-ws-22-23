@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <v-app-bar :collapse="collapse" elevation="0">
-      <v-app-bar-nav-icon :icon="'mdi-home'" to="/">
+      <v-app-bar-nav-icon :icon="'mdi-home'" aria-label="Home Navigation" to="/">
       </v-app-bar-nav-icon>
-      <v-app-bar-nav-icon :icon="'mdi-format-list-text'" to="/weekly">
+      <v-app-bar-nav-icon :icon="'mdi-format-list-text'" aria-label="Weekly Navigation" to="/weekly">
       </v-app-bar-nav-icon>
       <v-app-bar-title v-if="!$vuetify.display.xs" class="mx-5">Creative Coding</v-app-bar-title>
       <v-spacer></v-spacer>
