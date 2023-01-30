@@ -3,6 +3,10 @@ $font-family-headers: 'Ogg Roman';
 $text-color: #004594;
 $gap: 3rem;
 
+h1 {
+  font-size: 2.5rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: $text-color !important;
   font-family: $font-family-headers !important;
