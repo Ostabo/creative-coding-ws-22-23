@@ -20,19 +20,20 @@
       },
       {
         "name": "Nicolas Müller",
-        "img": [],
+        "img": [
+          "nm-font-1.png",
+          "nm-font-2.png",
+          "nm-font-3.png"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Marcel Biselli",
-        "img": [
-          "mb_font-1.png",
-          "mb_font-2.png"
-        ],
+        "img": [],
         "iframe": [],
         "pdf": [
-          "mb_font-1.pdf"
+          "mb_fonts.pdf"
         ]
       },
       {
@@ -67,7 +68,11 @@
       },
       {
         "name": "Kim Joy Serden",
-        "img": [],
+        "img": [
+          "kjs_font_01.png",
+          "kjs_font_02.jpg",
+          "kjs_font_03.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -79,9 +84,15 @@
       },
       {
         "name": "Nadine Görzen",
-        "img": [],
+        "img": [
+          "ng-font-1.png",
+          "ng-font-2.png",
+          "ng-font-3.png"
+        ],
         "iframe": [],
-        "pdf": []
+        "pdf": [
+          "ng-font.pdf"
+        ]
       },
       {
         "name": "Paula Tröster",
@@ -93,7 +104,9 @@
         "name": "Konstantin Zabaznov",
         "img": [],
         "iframe": [],
-        "pdf": []
+        "pdf": [
+          "kz-A1.pdf"
+        ]
       },
       {
         "name": "Anna-Lisa Renner",
@@ -140,22 +153,9 @@
       {
         "name": "Marcel Biselli",
         "img": [],
-        "iframe": [
-          {
-            "thumbnail": "mb_perm-1.png",
-            "src": "https://editor.p5js.org/biselli-mar/full/jrLDOaVON"
-          },
-          {
-            "thumbnail": "mb_perm-2.png",
-            "src": "https://editor.p5js.org/biselli-mar/full/EI2j1fnBc"
-          },
-          {
-            "thumbnail": "mb_perm-3.png",
-            "src": "https://editor.p5js.org/biselli-mar/full/PgWtyOk28"
-          }
-        ],
+        "iframe": [],
         "pdf": [
-          "mb_perm-1.pdf"
+          "mb_font.pdf"
         ]
       },
       {
@@ -190,7 +190,11 @@
       },
       {
         "name": "Kim Joy Serden",
-        "img": [],
+        "img": [
+          "kjs_perm_01.png",
+          "kjs_perm_02.png",
+          "kjs_perm_03.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -203,8 +207,23 @@
       {
         "name": "Nadine Görzen",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "ng-perm-1.png",
+            "src": "https://editor.p5js.org/naedmi/full/YnSF4HjC7"
+          },
+          {
+            "thumbnail": "ng-perm-2.png",
+            "src": "https://editor.p5js.org/naedmi/full/PK8xy29uY"
+          },
+          {
+            "thumbnail": "ng-perm-3.png",
+            "src": "https://editor.p5js.org/naedmi/full/_bCuq7rG-"
+          }
+        ],
+        "pdf": [
+          "ng-permutation.pdf"
+        ]
       },
       {
         "name": "Paula Tröster",
@@ -215,8 +234,19 @@
       {
         "name": "Konstantin Zabaznov",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/konstantinz001/full/LhJbHk8y_"
+          },
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/konstantinz001/full/OZMX0q0Zs"
+          }
+        ],
+        "pdf": [
+          "kz-A2.pdf"
+        ]
       },
       {
         "name": "Anna-Lisa Renner",
@@ -303,8 +333,15 @@
       {
         "name": "Nadine Görzen",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "ng_thumb_sound.png",
+            "src": "hhttps://editor.p5js.org/naedmi/full/1hqVLfSXo"
+          }
+        ],
+        "pdf": [
+          "ng-sound.pdf"
+        ]
       },
       {
         "name": "Paula Tröster",
@@ -315,8 +352,19 @@
       {
         "name": "Konstantin Zabaznov",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/konstantinz001/full/pVZNalrrL"
+          },
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/konstantinz001/full/MYlrdGxqO"
+          }
+        ],
+        "pdf": [
+          "kz-A3.pdf"
+        ]
       },
       {
         "name": "Anna-Lisa Renner",
@@ -403,8 +451,15 @@
       {
         "name": "Nadine Görzen",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "ng_text.png",
+            "src": "https://editor.p5js.org/naedmi/full/Fz2SNWDO_"
+          }
+        ],
+        "pdf": [
+          "ng-text.pdf"
+        ]
       },
       {
         "name": "Paula Tröster",
@@ -415,8 +470,15 @@
       {
         "name": "Konstantin Zabaznov",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/konstantinz001/full/DQ-0GAKlF"
+          }
+        ],
+        "pdf": [
+          "kz-A4.pdf"
+        ]
       },
       {
         "name": "Anna-Lisa Renner",
@@ -452,8 +514,28 @@
       },
       {
         "name": "Nicolas Müller",
-        "img": [],
-        "iframe": [],
+        "img": [
+          "nm-a6-ascii-waves.png",
+          "nm-a6-marilyn-ascii.png",
+          "nm-a6-marilyn-portrait.png",
+          "nm-a6-marilyn-squares.png",
+          "nm-a6-portrait.png",
+          "nm-a6-snowden-ascii.png"
+        ],
+        "iframe": [
+          {
+            "thumbnail": "nm-a6-portrait.png",
+            "src": "https://editor.p5js.org/N1COLA5/full/XryqyGA_W"
+          },
+          {
+            "thumbnail": "nm-a6-ascii-waves.png",
+            "src": "https://editor.p5js.org/N1COLA5/full/0jujc8QBH"
+          },
+          {
+            "thumbnail": "nm-a6-marilyn-squares.png",
+            "src": "https://editor.p5js.org/N1COLA5/full/lOGVAZtr9"
+          }
+        ],
         "pdf": []
       },
       {
@@ -507,8 +589,15 @@
       {
         "name": "Nadine Görzen",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "ng-img.png",
+            "src": "https://editor.p5js.org/naedmi/full/QTnu-gjoN"
+          }
+        ],
+        "pdf": [
+          "ng-img.pdf"
+        ]
       },
       {
         "name": "Paula Tröster",
@@ -519,8 +608,15 @@
       {
         "name": "Konstantin Zabaznov",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/konstantinz001/full/GN49bkcos"
+          }
+        ],
+        "pdf": [
+          "kz-A5.pdf"
+        ]
       },
       {
         "name": "Anna-Lisa Renner",
@@ -607,8 +703,19 @@
       {
         "name": "Nadine Görzen",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "ng-data.png",
+            "src": "https://editor.p5js.org/naedmi/full/xSHGB_7p0"
+          },
+          {
+            "thumbnail": "ng-data-2.png",
+            "src": "https://editor.p5js.org/naedmi/full/Dl9avxF-A"
+          }
+        ],
+        "pdf": [
+          "ng-data.pdf"
+        ]
       },
       {
         "name": "Paula Tröster",
@@ -619,8 +726,15 @@
       {
         "name": "Konstantin Zabaznov",
         "img": [],
-        "iframe": [],
-        "pdf": []
+        "iframe": [
+          {
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/konstantinz001/full/dQjXF8tnC"
+          }
+        ],
+        "pdf": [
+          "kz-A6.pdf"
+        ]
       },
       {
         "name": "Anna-Lisa Renner",
