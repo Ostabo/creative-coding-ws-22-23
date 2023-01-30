@@ -2,7 +2,8 @@
   <v-responsive max-width="1550px">
     <h1 class="text-left em-buffer-top">Woche {{ week }}</h1>
     <div class="text-left em-buffer-bot">{{ json.description }}</div>
-    <v-row v-for="person in json.people" :key="person"
+    <v-row v-for="person in json?.people?.filter(p => hasSomething(p))"
+           :key="person"
            :align="'center'"
            :justify="'center'"
            class="border-t my-5">
@@ -130,6 +131,9 @@ export default {
     },
     getPdf(pdf) {
       return pdf.startsWith('http') ? pdf : new URL(`../assets/pdfs/${pdf}`, import.meta.url).href
+    },
+    hasSomething(person) {
+      return person.img?.length > 0 || person.iframe?.length > 0 || person.pdf?.length > 0
     }
   }
 }
