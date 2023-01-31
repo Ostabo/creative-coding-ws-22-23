@@ -1,24 +1,7 @@
-$font-family: 'Roboto Mono';
-$font-family-headers: 'Ogg Roman';
-$text-color: #004594;
 $gap: 3rem;
 
 h1 {
   font-size: 2.5rem;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: $text-color !important;
-  font-family: $font-family-headers !important;
-}
-
-.v-application {
-  [class*='text-'] {
-    color: $text-color !important;
-  }
-
-  color: $text-color !important;
-  font-family: $font-family, monospace !important;
 }
 
 .em-buffer-y {
@@ -47,4 +30,33 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: auto;
   font-style: auto;
   font-display: swap;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.1);
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 5px 0;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, .9);
 }

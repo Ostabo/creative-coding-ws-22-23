@@ -25,6 +25,7 @@
 
 <script>
 import {RouterView} from "vue-router";
+import {useTheme} from "vuetify";
 
 export default {
   name: "App",
@@ -34,6 +35,14 @@ export default {
   data() {
     return {
       collapse: false
+    }
+  },
+  setup() {
+    const theme = useTheme()
+
+    return {
+      theme,
+      toggleTheme: (themeName) => theme.global.name.value = themeName
     }
   },
   mounted() {
@@ -46,37 +55,38 @@ export default {
     onScroll(e) {
       this.collapse = e.target.documentElement.scrollTop > 100
     }
+  },
+  computed: {
+    pathToColor() {
+      switch (this.$route.path) {
+        case '/weekly':
+          this.toggleTheme('weeklyTheme')
+          return '#db1f11'
+        default:
+          this.toggleTheme('ccTheme')
+          return '#004594'
+      }
+    }
   }
 }
 </script>
 
 <style lang="scss">
-* {
-  scrollbar-width: thin;
-  scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.1);
+$text-color: v-bind(pathToColor);
+$font-family: 'Roboto Mono';
+$font-family-headers: 'Ogg Roman';
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-color !important;
+  font-family: $font-family-headers !important;
 }
 
-*::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
+.v-application {
+  [class*='text-'] {
+    color: $text-color !important;
+  }
 
-*::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.1);
-  margin: 5px 0;
-}
-
-*::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.2);
-}
-
-*::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.4);
-}
-
-*::-webkit-scrollbar-thumb:active {
-  background: rgba(0, 0, 0, .9);
+  color: $text-color !important;
+  font-family: $font-family, monospace !important;
 }
 </style>

@@ -19,7 +19,22 @@ const ccTheme = {
         'on-surface': '#004594',
         primary: '#004594',
         secondary: '#3f3f40',
-        error: '#77434b',
+        error: '#db1f11',
+        info: '#86adc2',
+        success: '#78b079',
+        warning: '#deaf72',
+    }
+}
+
+const weeklyTheme = {
+    dark: false,
+    colors: {
+        background: '#ffffff',
+        surface: '#ffffff',
+        'on-surface': '#db1f11',
+        primary: '#004594',
+        secondary: '#3f3f40',
+        error: '#db1f11',
         info: '#86adc2',
         success: '#78b079',
         warning: '#deaf72',
@@ -34,6 +49,7 @@ const vuetify = createVuetify({
         defaultTheme: 'ccTheme',
         themes: {
             ccTheme,
+            weeklyTheme,
             carousel: {
                 colors: {
                     background: '#e3e3e4',
