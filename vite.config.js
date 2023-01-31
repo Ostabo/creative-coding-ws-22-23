@@ -19,5 +19,5 @@ export default defineConfig({
         port: 8080,
         https: true,
     },
-    base: '/creative-coding/'
+    base: '/creative-coding-ws-22-23/'
 })
