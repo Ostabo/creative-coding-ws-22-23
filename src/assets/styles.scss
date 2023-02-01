@@ -5,15 +5,15 @@ h1 {
 }
 
 .em-buffer-y {
-  margin: $gap 0;
+  margin: $gap 0 !important;
 }
 
 .em-buffer-top {
-  margin-top: $gap;
+  margin-top: $gap !important;
 }
 
 .em-buffer-bot {
-  margin-bottom: $gap;
+  margin-bottom: $gap !important;
 }
 
 @font-face {

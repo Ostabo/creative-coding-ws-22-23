@@ -6,7 +6,7 @@
            :key="person"
            :align="'center'"
            :justify="'center'"
-           class="border-t my-5">
+           class="my-5">
       <div class="text-disabled w-100 text-start ms-4">{{ person.name }}</div>
       <v-card v-for="img in person.img" class="ma-1" elevation="0" height="220" min-width="300" rounded="0" width="380"
               @click="overlay[img] = true">

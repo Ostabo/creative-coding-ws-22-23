@@ -1,18 +1,13 @@
 <template>
-  <v-col :align="'center'" :justify="'center'">
+  <v-col :align="'center'" :justify="'center'" class="text-start resp pa-0">
     <h1 class="em-buffer-top">{{ json.title || 'Gruppe ' + group }}</h1>
-    <h2 class="my-5 text-subtitle-1 font-weight-thin">- {{ json.theme }} -</h2>
-    <v-label class="em-buffer-bot">{{ json.people }}</v-label>
-    <v-responsive v-if="json.description" :width="dynamicWidth"
-                  class="text-left border-t py-5 mb-5">
-      <p>
-        {{ json.description }}
-      </p>
-    </v-responsive>
+    <v-label>{{ json.people }}</v-label>
+    <h2 class="my-5 text-subtitle-1 font-weight-thin">{{ json.theme }}</h2>
   </v-col>
-  <v-row v-if="json.img.length > 0" :align="'center'" :justify="'center'" class="fill-height">
+  <v-row v-if="json.img.length > 0" :align="'center'" :justify="'center'" class="fill-height mt-0">
     <v-responsive :width="dynamicFrameWidth" class="text-left">
-      <v-carousel class="change-carousel-theme"
+      <v-carousel :show-arrows="false"
+                  class="change-carousel-theme"
                   color="surface"
                   theme="carousel">
         <v-carousel-item
@@ -21,13 +16,12 @@
             cover
         ></v-carousel-item>
       </v-carousel>
-    </v-responsive>
-  </v-row>
-  <v-row v-if="json.filler" :align="'center'" :justify="'center'" class="fill-height">
-    <v-responsive :max-width="dynamicWidth" class="text-left py-5 mt-5">
-      <p>
-        {{ json.filler }}
-      </p>
+      <v-responsive v-if="json.description" :width="dynamicWidth"
+                    class="text-left border-t py-5">
+        <p>
+          {{ json.description }}
+        </p>
+      </v-responsive>
     </v-responsive>
   </v-row>
   <v-row v-if="json.iframe" :align="'center'" :justify="'center'" class="fill-height flex-column">
@@ -76,4 +70,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.resp {
+  max-width: 1000px;
+  justify-self: center;
+}
 </style>
