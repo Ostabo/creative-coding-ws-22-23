@@ -11,4 +11,5 @@ jobs:
         with:
           username: 'Ostabo'
           reponame: 'creative-coding-ws-22-23'
+          cname: 'creative-coding.ostabo.software'
           token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
