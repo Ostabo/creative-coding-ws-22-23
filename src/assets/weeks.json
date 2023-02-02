@@ -62,7 +62,10 @@
       },
       {
         "name": "Pfeifer Jan",
-        "img": [],
+        "img": [
+          "jp_a1_font1.jpg",
+          "jp_a1_font2.jpg"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -78,7 +81,11 @@
       },
       {
         "name": "Lilli Marutschke",
-        "img": [],
+        "img": [
+          "lm_ü1_01.png",
+          "lm_ü1_02.png",
+          "lm_ü1_02.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -128,12 +135,16 @@
             "src": "https://editor.p5js.org/Ostabo/full/kZu6jBuBW"
           },
           {
-            "thumbnail": "p5js.png",
+            "thumbnail": "ob_perm_3.png",
             "src": "https://editor.p5js.org/Ostabo/full/PbY69xloD"
           },
           {
-            "thumbnail": "p5js.png",
+            "thumbnail": "ob_perm_2.png",
             "src": "https://editor.p5js.org/Ostabo/full/siZmWcp3T"
+          },
+          {
+            "thumbnail": "ob_perm_grid.png",
+            "src": "https://editor.p5js.org/Ostabo/sketches/eckjh-6ew"
           }
         ],
         "pdf": []
@@ -184,7 +195,14 @@
       },
       {
         "name": "Pfeifer Jan",
-        "img": [],
+        "img": [
+          "jp_a2_1.jpg",
+          "jp_a2_2.jpg",
+          "jp_a2_3.jpg",
+          "jp_a2_4.jpg",
+          "jp_a2_5.png",
+          "jp_a2_6.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -200,7 +218,10 @@
       },
       {
         "name": "Lilli Marutschke",
-        "img": [],
+        "img": [
+          "lm_ü2_01.png",
+          "lm_ü2_02.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -315,19 +336,33 @@
       {
         "name": "Pfeifer Jan",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "jp_thump_sound.png",
+            "src": "https://editor.p5js.org/Janiboiii/sketches/T77uhbeD8"
+          }
+        ],
         "pdf": []
       },
       {
         "name": "Kim Joy Serden",
-        "img": [],
-        "iframe": [],
+        "img": [
+          "kjs_sound_01.png"
+        ],
+        "iframe": [
+          "https://www.youtube.com/watch?v=GfSeUsgyPpg"
+        ],
         "pdf": []
       },
       {
         "name": "Lilli Marutschke",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "lm_ü3_01.png",
+            "src": "https://editor.p5js.org/lilli_/sketches/MFNcguiRj"
+          }
+        ],
         "pdf": []
       },
       {
@@ -335,8 +370,8 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "ng_thumb_sound.png",
-            "src": "hhttps://editor.p5js.org/naedmi/full/1hqVLfSXo"
+            "thumbnail": "ng-sound.png",
+            "src": "https://editor.p5js.org/naedmi/sketches/1hqVLfSXo"
           }
         ],
         "pdf": [
@@ -434,17 +469,24 @@
         "name": "Pfeifer Jan",
         "img": [],
         "iframe": [],
-        "pdf": []
+        "pdf": [
+          "jp_a4_Punzen.pdf"
+        ]
       },
       {
         "name": "Kim Joy Serden",
-        "img": [],
+        "img": [
+          "kjs_text_01.png",
+          "kjs_text_02.png"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Lilli Marutschke",
-        "img": [],
+        "img": [
+          "lm_ü4_01.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -453,7 +495,7 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "ng_text.png",
+            "thumbnail": "ng-text.png",
             "src": "https://editor.p5js.org/naedmi/full/Fz2SNWDO_"
           }
         ],
@@ -572,18 +614,28 @@
         "name": "Pfeifer Jan",
         "img": [],
         "iframe": [],
-        "pdf": []
+        "pdf": [
+          "jp_a5_gruppenarbeit.pdf"
+        ]
       },
       {
         "name": "Kim Joy Serden",
-        "img": [],
+        "img": [
+          "kjs_pic_01.png",
+          "kjs_pic_02.png"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Lilli Marutschke",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "lm_ü5_01.png",
+            "src": "https://editor.p5js.org/lilli_/sketches/g9gnLoG55"
+          }
+        ],
         "pdf": []
       },
       {
@@ -684,19 +736,25 @@
       },
       {
         "name": "Pfeifer Jan",
-        "img": [],
+        "img": [
+          "jp_a6_1.jpg"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Kim Joy Serden",
-        "img": [],
+        "img": [
+          "kjs_data_01.png"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Lilli Marutschke",
-        "img": [],
+        "img": [
+          "lm_ü6_01.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -705,7 +763,7 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "ng-data.png",
+            "thumbnail": "ng-data-1.png",
             "src": "https://editor.p5js.org/naedmi/full/xSHGB_7p0"
           },
           {

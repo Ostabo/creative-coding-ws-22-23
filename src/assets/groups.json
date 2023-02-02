@@ -41,8 +41,8 @@
   },
   "5": {
     "people": "Pfeifer Jan, Kim Joy Serden, Lilli Marutschke, Nadine Görzen",
-    "title": "Sapere Aude",
-    "theme": "Poster",
+    "title": "#MEmoji",
+    "theme": "Generative Poster",
     "description": "",
     "thumbnail": "",
     "img": [],
@@ -54,17 +54,17 @@
     "title": "Mass Shootings in the US visualized",
     "theme": "Datenvisualisierung",
     "description": "Lorem ipsu dolor sit amet, consectetur adipiscing elit. el tinciduuris. Sed euismod, nisl vel ti aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris.",
-    "thumbnail": "group7_preview.png",
+    "thumbnail": "group7_prev2.png",
     "img": [
+      "group7_prev2.png",
       "test.png",
       "group7_preview.png"
     ],
-    "filler": "Lorem ipsu dolor sit amet, consectetur adipiscing ris. Sed euismod, nisl vel tincidunt, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed eu nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris. Sed euismod, nisl vel tincidunt lacinia, nisl nisl aliquam massa, nec lacinia nisl nunc vel mauris.",
     "iframe": [
       "https://editor.p5js.org/Ostabo/full/FgcIrw0Oa",
       "https://editor.p5js.org/Ostabo/full/BQWJQbSH8"
     ],
-    "customIframeHeight": ""
+    "customIframeHeight": "900"
   },
   "7": {
     "people": "Konstantin Zabaznov",
