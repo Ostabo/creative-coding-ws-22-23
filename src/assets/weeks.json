@@ -350,7 +350,9 @@
           "kjs_sound_01.png"
         ],
         "iframe": [
-          "https://www.youtube.com/watch?v=GfSeUsgyPpg"
+          {
+            "src": "https://www.youtube-nocookie.com/embed/GfSeUsgyPpg?controls=0"
+          }
         ],
         "pdf": []
       },

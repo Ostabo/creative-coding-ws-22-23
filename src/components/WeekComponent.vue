@@ -30,7 +30,7 @@
         <v-img
             :cover="true"
             :lazy-src="'https://via.placeholder.com/380x220.webp?text=Loading...'"
-            :src="getImg(ifr.thumbnail)"
+            :src="getImg(ifr.thumbnail || 'p5js.png')"
             height="220px"
             width="380px"
         >
@@ -62,6 +62,7 @@
               :height="800"
               :src="ifr.src"
               :width="'100%'"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               class="border"
           ></iframe>
         </v-card>

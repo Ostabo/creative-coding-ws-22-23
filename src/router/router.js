@@ -4,6 +4,7 @@ import MainView from "@/views/MainView.vue";
 import WeeklyView from "@/views/WeeklyView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
 
+const weeklyName = "Projekte";
 const router = createRouter({
     history: createWebHashHistory(import.meta.env.BASE_URL),
     routes: [
@@ -14,7 +15,7 @@ const router = createRouter({
         },
         {
             path: "/weekly",
-            name: "Projekte",
+            name: weeklyName,
             component: WeeklyView,
         },
         {
@@ -30,10 +31,16 @@ const router = createRouter({
         },
     ],
     strict: true,
-    scrollBehavior() {
+    scrollBehavior(to, from, savedPosition) {
+        if (savedPosition)
+            return {
+                ...savedPosition,
+                behavior: "smooth",
+            };
         return {
-            top: 0
-        }
+            top: 0,
+            behavior: "smooth",
+        };
     },
 });
 
