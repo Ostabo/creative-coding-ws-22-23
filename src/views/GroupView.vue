@@ -33,6 +33,8 @@
         :style="'width:' + dynamicFrameWidth"
         class="mt-5 border frame"
         name="p5js"
+        @mouseenter="iframeHover = true"
+        @mouseleave="iframeHover = false"
     ></iframe>
   </v-row>
 </template>
@@ -50,8 +52,24 @@ export default {
   },
   data() {
     return {
-      json: groups[this.group] || {}
+      json: groups[this.group] || {},
+      iframeHover: false
     }
+  },
+  watch: {
+    iframeHover() {
+      if (this.iframeHover && this.json?.iframeNoScroll === "true") {
+        this.disableScrolling()
+      } else if (!this.iframeHover) {
+        this.enableScrolling()
+      }
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
   },
   computed: {
     dynamicWidth() {
@@ -64,6 +82,16 @@ export default {
   methods: {
     getImg(img) {
       return img.startsWith('http') ? img : new URL(`../assets/images/${img}`, import.meta.url).href
+    },
+    disableScrolling() {
+      const x = window.scrollX;
+      const y = window.scrollY;
+      window.onscroll = function () {
+        window.scrollTo(x, y);
+      };
+    },
+    enableScrolling() {
+      window.onscroll = null
     }
   }
 }
