@@ -38,13 +38,20 @@
       },
       {
         "name": "Elisabeth Schmidt",
-        "img": [],
+        "img": [
+          "es_a1_1.png",
+          "es_a1_2.png"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Emanuel Kupke",
-        "img": [],
+        "img": [
+          "ek-font-1.png",
+          "ek-font-2.png",
+          "ek-font-3.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -56,7 +63,9 @@
       },
       {
         "name": "Lukas Schwarz",
-        "img": [],
+        "img": [
+          "ls_a1.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -157,7 +166,12 @@
       },
       {
         "name": "Nicolas Müller",
-        "img": [],
+        "img": [
+          "nm-a2-sin1.png",
+          "nm-a2-circles.png",
+          "nm-a2-noise1.png",
+          "nm-a2-triangle.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -171,14 +185,27 @@
       },
       {
         "name": "Elisabeth Schmidt",
-        "img": [],
+        "img": [
+          "es_a2_1.png",
+          "es_a2_2.png",
+          "es_a2_3.png"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Emanuel Kupke",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "ek-perm-1.png",
+            "src": "https://editor.p5js.org/emanuelk02/full/0W6L6nd2K"
+          },
+          {
+            "thumbnail": "ek-perm2.png",
+            "src": "https://editor.p5js.org/emanuelk02/full/ZpBOXdm6e"
+          }
+        ],
         "pdf": []
       },
       {
@@ -189,7 +216,9 @@
       },
       {
         "name": "Lukas Schwarz",
-        "img": [],
+        "img": [
+          "ls_a2.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -265,9 +294,7 @@
             "src": "https://editor.p5js.org/konstantinz001/full/OZMX0q0Zs"
           }
         ],
-        "pdf": [
-          "kz-A2.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Anna-Lisa Renner",
@@ -300,7 +327,20 @@
       {
         "name": "Nicolas Müller",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "nm-a3-thumbnail-ilomilo-01.png",
+            "src": "https://www.youtube.com/watch?v=j_UVDIZW5Bg"
+          },
+          {
+            "thumbnail": "nm-a3-thumbnail-time.png",
+            "src": "https://www.youtube.com/watch?v=wFH9A3Eoano"
+          },
+          {
+            "thumbnail": "nm-a3-thumbnail-ilomilo-02.png",
+            "src": "https://www.youtube.com/watch?v=yUQZuLB553s"
+          }
+        ],
         "pdf": []
       },
       {
@@ -311,14 +351,27 @@
       },
       {
         "name": "Elisabeth Schmidt",
-        "img": [],
-        "iframe": [],
+        "img": [
+          "es_a3_1.png",
+          "es_a3_2.png"
+        ],
+        "iframe": [
+          {
+            "thumbnail": "es_a3_3.png",
+            "src": "https://www.youtube.com/watch?v=evi-YyPzvss"
+          }
+        ],
         "pdf": []
       },
       {
         "name": "Emanuel Kupke",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "ek-a3.png",
+            "src": "https://editor.p5js.org/emanuelk02/full/cNz1sCJp3"
+          }
+        ],
         "pdf": []
       },
       {
@@ -329,7 +382,9 @@
       },
       {
         "name": "Lukas Schwarz",
-        "img": [],
+        "img": [
+          "ls_a3.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -346,12 +401,11 @@
       },
       {
         "name": "Kim Joy Serden",
-        "img": [
-          "kjs_sound_01.png"
-        ],
+        "img": [],
         "iframe": [
           {
-            "src": "https://www.youtube-nocookie.com/embed/GfSeUsgyPpg?controls=0"
+            "thumbnail": "kjs_sound_01.png",
+            "src": "https://www.youtube.com/watch?v=GfSeUsgyPpg"
           }
         ],
         "pdf": []
@@ -399,9 +453,7 @@
             "src": "https://editor.p5js.org/konstantinz001/full/MYlrdGxqO"
           }
         ],
-        "pdf": [
-          "kz-A3.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Anna-Lisa Renner",
@@ -433,7 +485,11 @@
       },
       {
         "name": "Nicolas Müller",
-        "img": [],
+        "img": [
+          "nm-a4-poesiegenerator.png",
+          "nm-a4-trump1.png",
+          "nm-a4-trump2.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -445,14 +501,23 @@
       },
       {
         "name": "Elisabeth Schmidt",
-        "img": [],
+        "img": [
+          "es_a4_1.png",
+          "es_a4_2.png",
+          "es_a4_3.png"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Emanuel Kupke",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "ek-a4.png",
+            "src": "https://editor.p5js.org/emanuelk02/full/xvQ3wPNJG"
+          }
+        ],
         "pdf": []
       },
       {
@@ -463,7 +528,9 @@
       },
       {
         "name": "Lukas Schwarz",
-        "img": [],
+        "img": [
+          "ls_a4.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -520,9 +587,7 @@
             "src": "https://editor.p5js.org/konstantinz001/full/DQ-0GAKlF"
           }
         ],
-        "pdf": [
-          "kz-A4.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Anna-Lisa Renner",
@@ -559,12 +624,10 @@
       {
         "name": "Nicolas Müller",
         "img": [
-          "nm-a6-ascii-waves.png",
-          "nm-a6-marilyn-ascii.png",
-          "nm-a6-marilyn-portrait.png",
-          "nm-a6-marilyn-squares.png",
-          "nm-a6-portrait.png",
-          "nm-a6-snowden-ascii.png"
+          "nm-a5-marilyn-ascii.png",
+          "nm-a5-marilyn-squares.png",
+          "nm-a5-waves.png",
+          "nm-a5-waves-ascii.png"
         ],
         "iframe": [
           {
@@ -590,14 +653,27 @@
       },
       {
         "name": "Elisabeth Schmidt",
-        "img": [],
-        "iframe": [],
+        "img": [
+          "es_a5_2.png",
+          "es_a5_3.png"
+        ],
+        "iframe": [
+          {
+            "thumbnail": "es_a5_1.png",
+            "src": "https://www.youtube.com/watch?v=h6T1fGSMEbg"
+          }
+        ],
         "pdf": []
       },
       {
         "name": "Emanuel Kupke",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "ek-a5-1.png",
+            "src": "https://editor.p5js.org/emanuelk02/full/C2xUiQGDE"
+          }
+        ],
         "pdf": []
       },
       {
@@ -608,16 +684,21 @@
       },
       {
         "name": "Lukas Schwarz",
-        "img": [],
+        "img": [
+          "ls_a5.png"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Pfeifer Jan",
-        "img": [],
+        "img": [
+          "jp_a5- Nadine,Kim,Jan_Seite_1.jpg",
+          "jp_a5-2 Nadine,Kim,Jan_Seite_1.jpg.jpg",
+          "jp_a3 Nadine,Kim,Jan_Seite_1.jpg.jpg"
+        ],
         "iframe": [],
         "pdf": [
-          "jp_a5_gruppenarbeit.pdf"
         ]
       },
       {
@@ -642,15 +723,19 @@
       },
       {
         "name": "Nadine Görzen",
-        "img": [],
+        "img": [
+          "ng-img-2.png",
+          "ng-img-3.png",
+          "ng-img-4.png",
+          "ng-img-5.png"
+        ],
         "iframe": [
           {
-            "thumbnail": "ng-img.png",
+            "thumbnail": "ng-img-1.png",
             "src": "https://editor.p5js.org/naedmi/full/QTnu-gjoN"
           }
         ],
         "pdf": [
-          "ng-img.pdf"
         ]
       },
       {
@@ -668,9 +753,7 @@
             "src": "https://editor.p5js.org/konstantinz001/full/GN49bkcos"
           }
         ],
-        "pdf": [
-          "kz-A5.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Anna-Lisa Renner",
@@ -702,7 +785,11 @@
       },
       {
         "name": "Nicolas Müller",
-        "img": [],
+        "img": [
+          "nm-a6-wasserstand.png",
+          "nm-a6-wasserstand-makro01.png",
+          "nm-a6-wasserstand-makro01.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -714,13 +801,17 @@
       },
       {
         "name": "Elisabeth Schmidt",
-        "img": [],
+        "img": [
+          "es_a6.svg"
+        ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Emanuel Kupke",
-        "img": [],
+        "img": [
+          "ek-a6.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -732,7 +823,9 @@
       },
       {
         "name": "Lukas Schwarz",
-        "img": [],
+        "img": [
+          "ls_a6.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -766,16 +859,18 @@
         "iframe": [
           {
             "thumbnail": "ng-data-1.png",
-            "src": "https://editor.p5js.org/naedmi/full/xSHGB_7p0"
+            "src": "https://editor.p5js.org/naedmi/full/feNrq6q43"
           },
           {
             "thumbnail": "ng-data-2.png",
-            "src": "https://editor.p5js.org/naedmi/full/Dl9avxF-A"
+            "src": "https://editor.p5js.org/naedmi/full/acXSVegBo"
+          },
+          {
+            "thumbnail": "ng-data-3.png",
+            "src": "https://editor.p5js.org/naedmi/full/-llqgqkuY"
           }
         ],
-        "pdf": [
-          "ng-data.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Paula Tröster",
@@ -792,9 +887,7 @@
             "src": "https://editor.p5js.org/konstantinz001/full/dQjXF8tnC"
           }
         ],
-        "pdf": [
-          "kz-A6.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Anna-Lisa Renner",
