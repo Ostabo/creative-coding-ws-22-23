@@ -14,7 +14,10 @@
       },
       {
         "name": "Linda Sommerhalter",
-        "img": [],
+        "img": [
+          "lso_a1_font1",
+          "lso_a1_font2"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -30,11 +33,12 @@
       },
       {
         "name": "Marcel Biselli",
-        "img": [],
+        "img": [
+          "mb_font-1.png",
+          "mb_font-2.png"
+        ],
         "iframe": [],
-        "pdf": [
-          "mb_fonts.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Elisabeth Schmidt",
@@ -91,9 +95,9 @@
       {
         "name": "Lilli Marutschke",
         "img": [
-          "lm_ü1_01.png",
-          "lm_ü1_02.png",
-          "lm_ü1_02.png"
+          "lm_u1_01.png",
+          "lm_u1_02.png",
+          "lm_u1_03.png"
         ],
         "iframe": [],
         "pdf": []
@@ -126,9 +130,13 @@
       },
       {
         "name": "Anna-Lisa Renner",
-        "img": [],
+        "img": [
+          "ar-font-2.png"
+        ],
         "iframe": [],
-        "pdf": []
+        "pdf": [
+          "ar-font-1-pdf"
+        ]
       }
     ]
   },
@@ -160,7 +168,11 @@
       },
       {
         "name": "Linda Sommerhalter",
-        "img": [],
+        "img": [
+          "lso_a2_1",
+          "lso_a2_2",
+          "lso_a2_3"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -177,11 +189,27 @@
       },
       {
         "name": "Marcel Biselli",
-        "img": [],
-        "iframe": [],
-        "pdf": [
-          "mb_font.pdf"
-        ]
+        "img": [
+          "mb_perm-1.png",
+          "mb_perm-2.png",
+          "mb_perm-3.png",
+          "mb_perm-4.png"
+        ],
+        "iframe": [
+          {
+            "thumbnail": "mb_u2-thumbnail-1.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/jrLDOaVON"
+          },
+          {
+            "thumbnail": "mb_u2-thumbnail-2.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/PgWtyOk28"
+          },
+          {
+            "thumbnail": "https://drive.google.com/file/d/1-5L4ZKqCxcZzJk-eoxC64NZOco3vOBKb/view?usp=sharing",
+            "src": "https://editor.p5js.org/biselli-mar/full/EI2j1fnBc"
+          }
+        ],
+        "pdf": []
       },
       {
         "name": "Elisabeth Schmidt",
@@ -229,8 +257,9 @@
           "jp_a2_2.jpg",
           "jp_a2_3.jpg",
           "jp_a2_4.jpg",
-          "jp_a2_5.png",
-          "jp_a2_6.png"
+          "jp_a2_5.jpg",
+          "jp_a2_6.png",
+          "jp_a2_7.png"
         ],
         "iframe": [],
         "pdf": []
@@ -248,32 +277,34 @@
       {
         "name": "Lilli Marutschke",
         "img": [
-          "lm_ü2_01.png",
-          "lm_ü2_02.png"
+          "lm_u2_01.png",
+          "lm_u2_02.png"
         ],
         "iframe": [],
         "pdf": []
       },
       {
         "name": "Nadine Görzen",
-        "img": [],
+        "img": [
+          "ng-perm-2.png",
+          "ng-perm-3.png",
+          "ng-perm-4.png"
+        ],
         "iframe": [
           {
             "thumbnail": "ng-perm-1.png",
-            "src": "https://editor.p5js.org/naedmi/full/YnSF4HjC7"
+            "src": "https://editor.p5js.org/naedmi/full/xqADPylxm"
           },
           {
-            "thumbnail": "ng-perm-2.png",
-            "src": "https://editor.p5js.org/naedmi/full/PK8xy29uY"
-          },
-          {
-            "thumbnail": "ng-perm-3.png",
+            "thumbnail": "ng-perm-5.png",
             "src": "https://editor.p5js.org/naedmi/full/_bCuq7rG-"
+          },
+          {
+            "thumbnail": "ng-perm-0.png",
+            "src": "https://editor.p5js.org/naedmi/full/PK8xy29uY"
           }
         ],
-        "pdf": [
-          "ng-permutation.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Paula Tröster",
@@ -298,7 +329,13 @@
       },
       {
         "name": "Anna-Lisa Renner",
-        "img": [],
+        "img": [
+          "ar-perm-1.png",
+          "ar-perm-2.png",
+          "ar-perm-3.png",
+          "ar-perm-4.png",
+          "ar-perm-5.png"
+        ],
         "iframe": [],
         "pdf": []
       }
@@ -320,7 +357,10 @@
       },
       {
         "name": "Linda Sommerhalter",
-        "img": [],
+        "img": [
+          "lso_a3_1",
+          "lso_a3_2"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -330,15 +370,15 @@
         "iframe": [
           {
             "thumbnail": "nm-a3-thumbnail-ilomilo-01.png",
-            "src": "https://www.youtube.com/watch?v=j_UVDIZW5Bg"
+            "src": "https://www.youtube.com/embed/j_UVDIZW5Bg?controls=0"
           },
           {
             "thumbnail": "nm-a3-thumbnail-time.png",
-            "src": "https://www.youtube.com/watch?v=wFH9A3Eoano"
+            "src": "https://www.youtube.com/embed/wFH9A3Eoano?controls=0"
           },
           {
             "thumbnail": "nm-a3-thumbnail-ilomilo-02.png",
-            "src": "https://www.youtube.com/watch?v=yUQZuLB553s"
+            "src": "https://www.youtube.com/embed/yUQZuLB553s?controls=0"
           }
         ],
         "pdf": []
@@ -346,7 +386,20 @@
       {
         "name": "Marcel Biselli",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "mb_u3-thumbnail-1.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/A8V5f6toP"
+          },
+          {
+            "thumbnail": "mb_u3-thumbnail-2.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/EfBSV3xDJ"
+          },
+          {
+            "thumbnail": "https://drive.google.com/file/d/1ABVkWRQ-HVxg-iGRCCO-OLAcX7J8Gyil/view?usp=sharing",
+            "src": "https://editor.p5js.org/biselli-mar/full/LaHw8HDI-"
+          }
+        ],
         "pdf": []
       },
       {
@@ -415,7 +468,7 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "lm_ü3_01.png",
+            "thumbnail": "lm_u3_01.png",
             "src": "https://editor.p5js.org/lilli_/sketches/MFNcguiRj"
           }
         ],
@@ -423,10 +476,13 @@
       },
       {
         "name": "Nadine Görzen",
-        "img": [],
+        "img": [
+          "ng-sound-2.png",
+          "ng-sound-3.png"
+        ],
         "iframe": [
           {
-            "thumbnail": "ng-sound.png",
+            "thumbnail": "ng-sound-1.png",
             "src": "https://editor.p5js.org/naedmi/sketches/1hqVLfSXo"
           }
         ],
@@ -457,7 +513,10 @@
       },
       {
         "name": "Anna-Lisa Renner",
-        "img": [],
+        "img": [
+          "ar-mus-1.png",
+          "ar-mus-2.png"
+        ],
         "iframe": [],
         "pdf": []
       }
@@ -479,7 +538,12 @@
       },
       {
         "name": "Linda Sommerhalter",
-        "img": [],
+        "img": [
+          "lso_a4_1",
+          "lso_a4_2",
+          "lso_a4_3",
+          "lso_a4_4"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -495,8 +559,21 @@
       },
       {
         "name": "Marcel Biselli",
-        "img": [],
-        "iframe": [],
+        "img": [
+          "https://drive.google.com/file/d/1BUSAMQH_X5f6B3oP_e6DzK0vbA9Ljd40/view?usp=sharing",
+          "https://drive.google.com/file/d/1uuO8oBKpFWFhBuE3DlixAfDG5i-O2GYE/view?usp=sharing",
+          "https://drive.google.com/file/d/1dyBKBmGlNNVouVocsuS62lHfomEpS5Di/view?usp=sharing"
+        ],
+        "iframe": [
+          {
+            "thumbnail": "mb_u4-thumbnail-1.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/UNI9s64Fg"
+          },
+          {
+            "thumbnail": "mb_u4-thumbnail-2.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/J7rk1Rm31p"
+          }
+        ],
         "pdf": []
       },
       {
@@ -554,7 +631,7 @@
       {
         "name": "Lilli Marutschke",
         "img": [
-          "lm_ü4_01.png"
+          "lm_u4_01.png"
         ],
         "iframe": [],
         "pdf": []
@@ -565,12 +642,10 @@
         "iframe": [
           {
             "thumbnail": "ng-text.png",
-            "src": "https://editor.p5js.org/naedmi/full/Fz2SNWDO_"
+            "src": "https://editor.p5js.org/naedmi/full/Ky3OFUtzx"
           }
         ],
-        "pdf": [
-          "ng-text.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Paula Tröster",
@@ -591,7 +666,10 @@
       },
       {
         "name": "Anna-Lisa Renner",
-        "img": [],
+        "img": [
+          "ar-poe-1.png",
+          "ar-poe-2.png"
+        ],
         "iframe": [],
         "pdf": []
       }
@@ -617,7 +695,11 @@
       },
       {
         "name": "Linda Sommerhalter",
-        "img": [],
+        "img": [
+          "lso_a5_1",
+          "lso_a5_2",
+          "lso_a5_3"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -629,25 +711,17 @@
           "nm-a5-waves.png",
           "nm-a5-waves-ascii.png"
         ],
-        "iframe": [
-          {
-            "thumbnail": "nm-a6-portrait.png",
-            "src": "https://editor.p5js.org/N1COLA5/full/XryqyGA_W"
-          },
-          {
-            "thumbnail": "nm-a6-ascii-waves.png",
-            "src": "https://editor.p5js.org/N1COLA5/full/0jujc8QBH"
-          },
-          {
-            "thumbnail": "nm-a6-marilyn-squares.png",
-            "src": "https://editor.p5js.org/N1COLA5/full/lOGVAZtr9"
-          }
-        ],
+        "iframe": [],
         "pdf": []
       },
       {
         "name": "Marcel Biselli",
-        "img": [],
+        "img": [
+          "mb_bild-1.png",
+          "mb_bild-2.png",
+          "mb_bild-3.png",
+          "mb_bild-4.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -695,7 +769,7 @@
         "img": [
           "jp_a5- Nadine,Kim,Jan_Seite_1.jpg",
           "jp_a5-2 Nadine,Kim,Jan_Seite_1.jpg.jpg",
-          "jp_a3 Nadine,Kim,Jan_Seite_1.jpg.jpg"
+          "jp_a5-3 Nadine,Kim,Jan_Seite_1jpg.jpg"
         ],
         "iframe": [],
         "pdf": [
@@ -715,7 +789,7 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "lm_ü5_01.png",
+            "thumbnail": "lm_u5_01.png",
             "src": "https://editor.p5js.org/lilli_/sketches/g9gnLoG55"
           }
         ],
@@ -727,16 +801,16 @@
           "ng-img-2.png",
           "ng-img-3.png",
           "ng-img-4.png",
-          "ng-img-5.png"
+          "ng-img-5.png",
+          "ng-img-0.png"
         ],
         "iframe": [
           {
             "thumbnail": "ng-img-1.png",
-            "src": "https://editor.p5js.org/naedmi/full/QTnu-gjoN"
+            "src": "https://editor.p5js.org/naedmi/full/fPF5zv1Pl"
           }
         ],
-        "pdf": [
-        ]
+        "pdf": []
       },
       {
         "name": "Paula Tröster",
@@ -758,7 +832,12 @@
       {
         "name": "Anna-Lisa Renner",
         "img": [],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "ar-5.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/bScYQIAvo"
+          }
+        ],
         "pdf": []
       }
     ]
@@ -779,7 +858,9 @@
       },
       {
         "name": "Linda Sommerhalter",
-        "img": [],
+        "img": [
+          "lso_a6_1"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -795,7 +876,9 @@
       },
       {
         "name": "Marcel Biselli",
-        "img": [],
+        "img": [
+          "mb_u6-thumbnail-1.png"
+        ],
         "iframe": [],
         "pdf": []
       },
@@ -848,7 +931,7 @@
       {
         "name": "Lilli Marutschke",
         "img": [
-          "lm_ü6_01.png"
+          "lm_u6_01.png"
         ],
         "iframe": [],
         "pdf": []

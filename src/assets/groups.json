@@ -84,12 +84,16 @@
   },
   "8": {
     "people": "Anna-Lisa Renner",
-    "title": "",
-    "theme": "Moiré/Stiftplotter/Coden",
+    "title": "the wiggle card",
+    "theme": "moiré—effect",
     "description": "",
     "thumbnail": "",
-    "img": [],
-    "iframe": [],
+    "img": [
+      "ar-final-1.png"
+    ],
+    "iframe": [
+      "https://editor.p5js.org/annarnnr/full/gtA63lNB-"
+    ],
     "customIframeHeight": ""
   }
 }
