@@ -70,16 +70,18 @@
       "https://editor.p5js.org/Ostabo/full/BQWJQbSH8"
     ],
     "iframeNoScroll": "true",
-    "customIframeHeight": "900"
+    "customIframeHeight": "940"
   },
   "7": {
     "people": "Konstantin Zabaznov",
-    "title": "",
-    "theme": "KI-Modell / Input Klang oder Sprache",
+    "title": "Oskar Schlemmer trifft künstliche Intelligenz",
+    "theme": "Bewegte Bilder",
     "description": "",
     "thumbnail": "",
     "img": [],
-    "iframe": [],
+    "iframe": [
+      "https://editor.p5js.org/konstantinz001/full/xaTIyWR2L"
+    ],
     "customIframeHeight": ""
   },
   "8": {

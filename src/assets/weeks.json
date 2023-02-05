@@ -15,8 +15,8 @@
       {
         "name": "Linda Sommerhalter",
         "img": [
-          "lso_a1_font1",
-          "lso_a1_font2"
+          "lso_a1_font1.png",
+          "lso_a1_font2.png"
         ],
         "iframe": [],
         "pdf": []
@@ -169,9 +169,9 @@
       {
         "name": "Linda Sommerhalter",
         "img": [
-          "lso_a2_1",
-          "lso_a2_2",
-          "lso_a2_3"
+          "lso_a2_1.png",
+          "lso_a2_2.png",
+          "lso_a2_3.png"
         ],
         "iframe": [],
         "pdf": []
@@ -358,8 +358,8 @@
       {
         "name": "Linda Sommerhalter",
         "img": [
-          "lso_a3_1",
-          "lso_a3_2"
+          "lso_a3_1.png",
+          "lso_a3_2.png"
         ],
         "iframe": [],
         "pdf": []
@@ -539,10 +539,10 @@
       {
         "name": "Linda Sommerhalter",
         "img": [
-          "lso_a4_1",
-          "lso_a4_2",
-          "lso_a4_3",
-          "lso_a4_4"
+          "lso_a4_1.png",
+          "lso_a4_2.png",
+          "lso_a4_3.png",
+          "lso_a4_4.png"
         ],
         "iframe": [],
         "pdf": []
@@ -696,9 +696,9 @@
       {
         "name": "Linda Sommerhalter",
         "img": [
-          "lso_a5_1",
-          "lso_a5_2",
-          "lso_a5_3"
+          "lso_a5_1.png",
+          "lso_a5_2.png",
+          "lso_a5_3.png"
         ],
         "iframe": [],
         "pdf": []
@@ -859,7 +859,7 @@
       {
         "name": "Linda Sommerhalter",
         "img": [
-          "lso_a6_1"
+          "lso_a6_1.png"
         ],
         "iframe": [],
         "pdf": []
@@ -974,7 +974,9 @@
       },
       {
         "name": "Anna-Lisa Renner",
-        "img": [],
+        "img": [
+          "ar-cal-1.png"
+        ],
         "iframe": [],
         "pdf": []
       }
