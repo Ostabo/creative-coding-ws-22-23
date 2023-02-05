@@ -62,7 +62,7 @@
               :height="800"
               :src="ifr.src"
               :width="'100%'"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; camera; microphone"
               class="border"
           ></iframe>
         </v-card>

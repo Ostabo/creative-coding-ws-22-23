@@ -31,6 +31,7 @@
         :height="json.customIframeHeight || '800px'"
         :src="ifr"
         :style="'width:' + dynamicFrameWidth"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; camera; microphone"
         class="mt-5 border frame"
         name="p5js"
         @mouseenter="iframeHover = true"
