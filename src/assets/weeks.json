@@ -122,11 +122,12 @@
       },
       {
         "name": "Konstantin Zabaznov",
-        "img": [],
+        "img": [
+          "kz_font1.png",
+          "kz_font2.png"
+        ],
         "iframe": [],
-        "pdf": [
-          "kz-A1.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Anna-Lisa Renner",
@@ -205,7 +206,7 @@
             "src": "https://editor.p5js.org/biselli-mar/full/PgWtyOk28"
           },
           {
-            "thumbnail": "https://drive.google.com/file/d/1-5L4ZKqCxcZzJk-eoxC64NZOco3vOBKb/view?usp=sharing",
+            "thumbnail": "https://drive.google.com/file/d/1-5L4ZKqCxcZzJk-eoxC64NZOco3vOBKb/preview",
             "src": "https://editor.p5js.org/biselli-mar/full/EI2j1fnBc"
           }
         ],
@@ -317,11 +318,11 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "p5js.png",
+            "thumbnail": "thumbnail_A2_ZK_1.png",
             "src": "https://editor.p5js.org/konstantinz001/full/LhJbHk8y_"
           },
           {
-            "thumbnail": "p5js.png",
+            "thumbnail": "thumbnail_A2_ZK_2.png",
             "src": "https://editor.p5js.org/konstantinz001/full/OZMX0q0Zs"
           }
         ],
@@ -501,11 +502,11 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "p5js.png",
+            "thumbnail": "thumbnail_A3_ZK_1.png",
             "src": "https://editor.p5js.org/konstantinz001/full/pVZNalrrL"
           },
           {
-            "thumbnail": "p5js.png",
+            "thumbnail": "thumbnail_A3_ZK_2.png",
             "src": "https://editor.p5js.org/konstantinz001/full/MYlrdGxqO"
           }
         ],
@@ -560,9 +561,9 @@
       {
         "name": "Marcel Biselli",
         "img": [
-          "https://drive.google.com/file/d/1BUSAMQH_X5f6B3oP_e6DzK0vbA9Ljd40/view?usp=sharing",
-          "https://drive.google.com/file/d/1uuO8oBKpFWFhBuE3DlixAfDG5i-O2GYE/view?usp=sharing",
-          "https://drive.google.com/file/d/1dyBKBmGlNNVouVocsuS62lHfomEpS5Di/view?usp=sharing"
+          "https://drive.google.com/file/d/1BUSAMQH_X5f6B3oP_e6DzK0vbA9Ljd40/preview",
+          "https://drive.google.com/file/d/1uuO8oBKpFWFhBuE3DlixAfDG5i-O2GYE/preview",
+          "https://drive.google.com/file/d/1dyBKBmGlNNVouVocsuS62lHfomEpS5Di/preview"
         ],
         "iframe": [
           {
@@ -658,7 +659,7 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "p5js.png",
+            "thumbnail": "thumbnail_A4_ZK.png",
             "src": "https://editor.p5js.org/konstantinz001/full/DQ-0GAKlF"
           }
         ],
@@ -722,7 +723,12 @@
           "mb_bild-3.png",
           "mb_bild-4.png"
         ],
-        "iframe": [],
+        "iframe": [
+          {
+            "thumbnail": "mb_u5-thumbnail-1.png",
+            "src": "https://editor.p5js.org/biselli-mar/full/mbMWOt6SL"
+          }
+        ],
         "pdf": []
       },
       {
@@ -823,7 +829,7 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "p5js.png",
+            "thumbnail": "thumbnail_A5_ZK.gif",
             "src": "https://editor.p5js.org/konstantinz001/full/GN49bkcos"
           }
         ],
@@ -876,10 +882,13 @@
       },
       {
         "name": "Marcel Biselli",
-        "img": [
-          "mb_u6-thumbnail-1.png"
+        "img": [],
+        "iframe": [
+          {
+            "thumbnail": "mb_u6-thumbnail-1.png",
+            "src": "https://editor.p5js.org/biselli-mar/sketches/FM1QSPSVg"
+          }
         ],
-        "iframe": [],
         "pdf": []
       },
       {
@@ -966,7 +975,7 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "p5js.png",
+            "thumbnail": "thumbnail_A6_ZK.png",
             "src": "https://editor.p5js.org/konstantinz001/full/dQjXF8tnC"
           }
         ],

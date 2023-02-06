@@ -11,12 +11,14 @@
   },
   "2": {
     "people": "Nicolas Müller, Marcel Biselli",
-    "title": "",
+    "title": "Elusive Type",
     "theme": "Typografie",
     "description": "",
-    "thumbnail": "",
+    "thumbnail": "elusiveType_thumbnail.png",
     "img": [],
-    "iframe": [],
+    "iframe": [
+      "https://nwchp.de"
+    ],
     "customIframeHeight": ""
   },
   "3": {
@@ -74,7 +76,7 @@
   },
   "7": {
     "people": "Konstantin Zabaznov",
-    "title": "Oskar Schlemmer trifft künstliche Intelligenz",
+    "title": "Oskar Schlemmer trifft KI",
     "theme": "Bewegte Bilder",
     "description": "",
     "thumbnail": "",
@@ -82,7 +84,8 @@
     "iframe": [
       "https://editor.p5js.org/konstantinz001/full/xaTIyWR2L"
     ],
-    "customIframeHeight": ""
+    "iframeNoScroll": "true",
+    "customIframeHeight": "900"
   },
   "8": {
     "people": "Anna-Lisa Renner",
