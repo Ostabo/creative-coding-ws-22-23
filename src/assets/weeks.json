@@ -110,9 +110,7 @@
           "ng-font-3.png"
         ],
         "iframe": [],
-        "pdf": [
-          "ng-font.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Paula Tröster",
@@ -132,12 +130,12 @@
       {
         "name": "Anna-Lisa Renner",
         "img": [
-          "ar-font-2.png"
+          "ar-font-1.png",
+          "ar-font-2.png",
+          "ar-font-3.png"
         ],
         "iframe": [],
-        "pdf": [
-          "ar-font-1-pdf"
-        ]
+        "pdf": []
       }
     ]
   },
@@ -153,12 +151,8 @@
             "src": "https://editor.p5js.org/Ostabo/full/kZu6jBuBW"
           },
           {
-            "thumbnail": "ob_perm_3.png",
-            "src": "https://editor.p5js.org/Ostabo/full/PbY69xloD"
-          },
-          {
             "thumbnail": "ob_perm_2.png",
-            "src": "https://editor.p5js.org/Ostabo/full/siZmWcp3T"
+            "src": "https://editor.p5js.org/Ostabo/full/PbY69xloD"
           },
           {
             "thumbnail": "ob_perm_grid.png",
@@ -332,10 +326,7 @@
         "name": "Anna-Lisa Renner",
         "img": [
           "ar-perm-1.png",
-          "ar-perm-2.png",
-          "ar-perm-3.png",
-          "ar-perm-4.png",
-          "ar-perm-5.png"
+          "ar-perm-2.png"
         ],
         "iframe": [],
         "pdf": []
@@ -487,9 +478,7 @@
             "src": "https://editor.p5js.org/naedmi/sketches/1hqVLfSXo"
           }
         ],
-        "pdf": [
-          "ng-sound.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Paula Tröster",
@@ -515,8 +504,7 @@
       {
         "name": "Anna-Lisa Renner",
         "img": [
-          "ar-mus-1.png",
-          "ar-mus-2.png"
+          "ar-mus-1.png"
         ],
         "iframe": [],
         "pdf": []
@@ -668,8 +656,7 @@
       {
         "name": "Anna-Lisa Renner",
         "img": [
-          "ar-poe-1.png",
-          "ar-poe-2.png"
+          "ar-poe-1.png"
         ],
         "iframe": [],
         "pdf": []
@@ -829,7 +816,7 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "thumbnail_A5_ZK.gif",
+            "thumbnail": "thumbnail_A5_ZK.png",
             "src": "https://editor.p5js.org/konstantinz001/full/GN49bkcos"
           }
         ],
