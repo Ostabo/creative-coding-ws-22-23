@@ -17,8 +17,8 @@
         ></v-carousel-item>
       </v-carousel>
       <v-responsive v-if="json.description" :width="dynamicWidth"
-                    class="text-left border-t py-5">
-        <p>
+                    class="text-left border-t pt-5">
+        <p class="text-pre-wrap">
           {{ json.description }}
         </p>
       </v-responsive>
