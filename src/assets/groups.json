@@ -17,13 +17,13 @@
     "people": "Nicolas Müller, Marcel Biselli",
     "title": "Elusive Type",
     "theme": "Typografie",
-    "description": "",
+    "description": "Elusive Type ist ein kreativer Typographie-Generator.\n\nDarin wird Schrift auf verschiedene Weise in neue Formen gewandelt,neu entdeckt und entfremdet dargestellt.",
     "thumbnail": "elusiveType_thumbnail.png",
     "img": [],
     "iframe": [
       "https://nwchp.de"
     ],
-    "customIframeHeight": ""
+    "customIframeHeight": "940"
   },
   "3": {
     "people": "Elisabeth Schmidt, Marius Emonts, Emanuel Kupke",
@@ -49,11 +49,11 @@
     "people": "Pfeifer Jan, Kim Joy Serden, Lilli Marutschke, Nadine Görzen",
     "title": "#MEmoji",
     "theme": "Generative Poster",
-    "description": "",
-    "thumbnail": "",
+    "description": "Memoji, Wer das nicht liest ist Dumm. Eine Digitale Plakatserie die aufklären soll. Wir geben dem Algorithmus ein Gesicht. Wir hoffen das WIR, DIR einen Anstoß geben können über dein Verhalten im Internet nachzudenken. Bei akuter Unmündigkeit lesen Sie die Datenschutzerklärungen, beantragen Sie ihre persönlichen Daten und lernen sie zu lesen.",
+    "thumbnail": "memoji_thumb Kopie.jpg",
     "img": [],
     "iframe": [
-      "https://editor.p5js.org/naedmi/full/o0QI1MSGb"
+      "https://editor.p5js.org/Janiboiii/sketches/zixBknRWA"
     ],
     "customIframeHeight": ""
   },

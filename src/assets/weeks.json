@@ -200,7 +200,7 @@
             "src": "https://editor.p5js.org/biselli-mar/full/PgWtyOk28"
           },
           {
-            "thumbnail": "https://drive.google.com/file/d/1-5L4ZKqCxcZzJk-eoxC64NZOco3vOBKb/preview",
+            "thumbnail": "https://drive.google.com/uc?id=1-5L4ZKqCxcZzJk-eoxC64NZOco3vOBKb",
             "src": "https://editor.p5js.org/biselli-mar/full/EI2j1fnBc"
           }
         ],
@@ -334,7 +334,7 @@
     ]
   },
   "3": {
-    "description": "Sound Visualizations",
+    "description": "Sound Visualization",
     "people": [
       {
         "name": "Oskar Borkenhagen",
@@ -388,7 +388,7 @@
             "src": "https://editor.p5js.org/biselli-mar/full/EfBSV3xDJ"
           },
           {
-            "thumbnail": "https://drive.google.com/file/d/1ABVkWRQ-HVxg-iGRCCO-OLAcX7J8Gyil/view?usp=sharing",
+            "thumbnail": "https://drive.google.com/uc?id=1ABVkWRQ-HVxg-iGRCCO-OLAcX7J8Gyil",
             "src": "https://editor.p5js.org/biselli-mar/full/LaHw8HDI-"
           }
         ],
@@ -530,8 +530,7 @@
         "img": [
           "lso_a4_1.png",
           "lso_a4_2.png",
-          "lso_a4_3.png",
-          "lso_a4_4.png"
+          "lso_a4_3.png"
         ],
         "iframe": [],
         "pdf": []
@@ -549,9 +548,9 @@
       {
         "name": "Marcel Biselli",
         "img": [
-          "https://drive.google.com/file/d/1BUSAMQH_X5f6B3oP_e6DzK0vbA9Ljd40/preview",
-          "https://drive.google.com/file/d/1uuO8oBKpFWFhBuE3DlixAfDG5i-O2GYE/preview",
-          "https://drive.google.com/file/d/1dyBKBmGlNNVouVocsuS62lHfomEpS5Di/preview"
+          "https://drive.google.com/uc?id=1BUSAMQH_X5f6B3oP_e6DzK0vbA9Ljd40",
+          "https://drive.google.com/uc?id=1uuO8oBKpFWFhBuE3DlixAfDG5i-O2GYE",
+          "https://drive.google.com/uc?id=1dyBKBmGlNNVouVocsuS62lHfomEpS5Di"
         ],
         "iframe": [
           {
@@ -873,7 +872,7 @@
         "iframe": [
           {
             "thumbnail": "mb_u6-thumbnail-1.png",
-            "src": "https://editor.p5js.org/biselli-mar/sketches/FM1QSPSVg"
+            "src": "https://editor.p5js.org/biselli-mar/full/FM1QSPSVg"
           }
         ],
         "pdf": []
