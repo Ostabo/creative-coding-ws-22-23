@@ -61,10 +61,11 @@
     "people": "Paula Tröster, Oskar Borkenhagen",
     "title": "Mass Shootings in the US visualized",
     "theme": "Datenvisualisierung",
-    "description": "Lorem ipsu dolor sit amet, consectetur adipiscing elit.",
+    "description": "Immer wieder und überall auf der Welt gibt es Gewalttaten, die mit Waffen ausgeübt werden. Es gibt jedoch ein Land, bei dem solche Taten öfter passieren, als in anderen Regionen und ein alarmierendes Zeichen für Politik und Gesellschaft ist. Eine Massenschießerei definieren wir in unserer Arbeit als eine Gewalttat mit Schusswaffen, bei der mindestens vier Personen ums Leben gekommen sind.\nAus den gesammelten Daten sind vier Infografiken und eine interaktive Karte entstanden.",
     "thumbnail": "group6_preview.png",
     "img": [
       "group6_preview.png",
+      "group6_single.png",
       "group6_preview2.png",
       "group6_old.png",
       "group6_ger.png",
