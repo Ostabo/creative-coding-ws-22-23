@@ -19,7 +19,10 @@
     "theme": "Typografie",
     "description": "Elusive Type ist ein kreativer Typographie-Generator.\n\nDarin wird Schrift auf verschiedene Weise in neue Formen gewandelt,neu entdeckt und entfremdet dargestellt.",
     "thumbnail": "elusiveType_thumbnail.png",
-    "img": [],
+    "img": [
+      "https://drive.google.com/uc?id=1tivXWYBH9DrqsJgqVl42RS6jHy-QsKzG",
+      "https://drive.google.com/uc?id=1fHe3GfMtP_K0o6jtYjdXTZbE-58O7uKt"
+    ],
     "iframe": [
       "https://nwchp.de"
     ],
@@ -84,7 +87,7 @@
     "title": "Oskar Schlemmer trifft KI",
     "theme": "Bewegte Bilder",
     "description": "",
-    "thumbnail": "",
+    "thumbnail": "thumbnail_TB_KI.png",
     "img": [],
     "iframe": [
       "https://editor.p5js.org/konstantinz001/full/xaTIyWR2L"

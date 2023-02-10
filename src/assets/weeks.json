@@ -603,9 +603,7 @@
         "name": "Pfeifer Jan",
         "img": [],
         "iframe": [],
-        "pdf": [
-          "jp_a4_Punzen.pdf"
-        ]
+        "pdf": []
       },
       {
         "name": "Kim Joy Serden",
@@ -871,7 +869,7 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "mb_u6-thumbnail-1.png",
+            "thumbnail": "mb_u6-thumbnail-1.jpg",
             "src": "https://editor.p5js.org/biselli-mar/full/FM1QSPSVg"
           }
         ],
