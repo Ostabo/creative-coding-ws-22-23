@@ -403,7 +403,7 @@
         "iframe": [
           {
             "thumbnail": "es_a3_3.png",
-            "src": "https://www.youtube.com/watch?v=evi-YyPzvss"
+            "src": "https://www.youtube.com/embed/evi-YyPzvss"
           }
         ],
         "pdf": []
@@ -724,7 +724,7 @@
         "iframe": [
           {
             "thumbnail": "es_a5_1.png",
-            "src": "https://www.youtube.com/watch?v=h6T1fGSMEbg"
+            "src": "https://www.youtube.com/embed/h6T1fGSMEbg"
           }
         ],
         "pdf": []
@@ -878,7 +878,7 @@
       {
         "name": "Elisabeth Schmidt",
         "img": [
-          "es_a6.svg"
+          "es_a6.png"
         ],
         "iframe": [],
         "pdf": []

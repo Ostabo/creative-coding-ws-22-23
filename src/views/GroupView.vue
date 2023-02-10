@@ -27,11 +27,11 @@
   <v-row v-if="json.iframe" :align="'center'" :justify="'center'" class="fill-height flex-column">
     <iframe
         v-for="ifr in json.iframe"
-        :allowfullscreen="'true'"
         :height="json.customIframeHeight || '800px'"
         :src="ifr"
         :style="'width:' + dynamicFrameWidth"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; camera; microphone"
+        allowfullscreen
         class="mt-5 border frame"
         name="p5js"
         @mouseenter="iframeHover = true"

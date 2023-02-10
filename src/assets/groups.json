@@ -30,12 +30,14 @@
   },
   "3": {
     "people": "Elisabeth Schmidt, Marius Emonts, Emanuel Kupke",
-    "title": "",
-    "theme": "Soundvisualisierung",
-    "description": "",
-    "thumbnail": "",
+    "title": "lost+found",
+    "theme": "Musikvisualisierung",
+    "thumbnail": "lost.png",
     "img": [],
-    "iframe": [],
+    "iframe": [
+      "https://www.youtube.com/embed/CBzRQo66bhE"
+    ],
+    "description": "Es ist eine Musikvisualisierung, welche mit den Programmen Touchdesigner, p5 und dem manuellen Videoschnitt arbeitet.\nSie stellt auf einer Seite das Verlieren in den unendlichen Feeds und Datenmengen der digitalen Medien dar. Die Überreizung und Überforderung werden von einem Technolied begleitet. Auf der anderen Seite findet der Ausbruch und die Rückkehr in die Natur statt. Mithilfe der Klassikmusik kann man Ruhe und Bewusstsein wiederfinden.",
     "customIframeHeight": ""
   },
   "4": {
