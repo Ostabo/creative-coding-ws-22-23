@@ -40,15 +40,25 @@
     "description": "Es ist eine Musikvisualisierung, welche mit den Programmen Touchdesigner, p5 und dem manuellen Videoschnitt arbeitet.\nSie stellt auf einer Seite das Verlieren in den unendlichen Feeds und Datenmengen der digitalen Medien dar. Die Überreizung und Überforderung werden von einem Technolied begleitet. Auf der anderen Seite findet der Ausbruch und die Rückkehr in die Natur statt. Mithilfe der Klassikmusik kann man Ruhe und Bewusstsein wiederfinden.",
     "customIframeHeight": ""
   },
+  "4": {
+    "people": "Lukas Schwarz",
+    "title": "666",
+    "theme": "Song Visualisierung",
+    "description": "Einfach in die Blackbox rechts von Dir setzen, Kopfhörer anziehen und zuschauen!",
+    "thumbnail": "ls-thumb.png",
+    "img": [],
+    "iframe": [],
+    "customIframeHeight": ""
+  },
   "5": {
     "people": "Pfeifer Jan, Kim Joy Serden, Lilli Marutschke, Nadine Görzen",
     "title": "#MEmoji",
     "theme": "Generative Poster",
-    "description": "Memoji, Wer das nicht liest ist Dumm. Eine Digitale Plakatserie die aufklären soll. Wir geben dem Algorithmus ein Gesicht. Wir hoffen das WIR, DIR einen Anstoß geben können über dein Verhalten im Internet nachzudenken. Bei akuter Unmündigkeit lesen Sie die Datenschutzerklärungen, beantragen Sie ihre persönlichen Daten und lernen sie zu lesen.",
+    "description": "Memoji: Wer das nicht liest ist dumm.\nEine Digitale Plakatserie, die aufklären soll. Wir geben dem Algorithmus ein Gesicht. Wir hoffen das WIR DIR einen Anstoß geben können, über dein Verhalten im Internet nachzudenken. Bei akuter Unmündigkeit lesen Sie die Datenschutzerklärungen, beantragen Sie ihre persönlichen Daten und lernen Sie sie zu lesen.",
     "thumbnail": "memoji_thumb Kopie.jpg",
     "img": [],
     "iframe": [
-      "https://editor.p5js.org/Janiboiii/full/zixBknRWA"
+      "https://editor.p5js.org/naedmi/full/o0QI1MSGb"
     ],
     "customIframeHeight": ""
   },
