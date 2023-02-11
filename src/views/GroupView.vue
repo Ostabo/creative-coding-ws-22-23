@@ -16,9 +16,13 @@
             cover
         ></v-carousel-item>
       </v-carousel>
-      <v-responsive v-if="json.description" :width="dynamicWidth"
-                    class="text-left border-t pt-5">
-        <p class="text-pre-wrap">
+    </v-responsive>
+  </v-row>
+  <v-row v-if="json.description" :align="'center'" :justify="'center'" class="fill-height mt-0">
+    <v-responsive :width="dynamicFrameWidth">
+      <v-responsive :width="dynamicWidth"
+                    class="text-left pt-5">
+        <p :width="dynamicWidth" class="text-pre-wrap">
           {{ json.description }}
         </p>
       </v-responsive>

@@ -438,8 +438,8 @@
         "img": [],
         "iframe": [
           {
-            "thumbnail": "jp_thump_sound.png",
-            "src": "https://editor.p5js.org/Janiboiii/sketches/T77uhbeD8"
+            "thumbnail": "p5js.png",
+            "src": "https://editor.p5js.org/Janiboiii/full/T77uhbeD8"
           }
         ],
         "pdf": []
@@ -450,7 +450,7 @@
         "iframe": [
           {
             "thumbnail": "kjs_sound_01.png",
-            "src": "https://www.youtube.com/watch?v=GfSeUsgyPpg"
+            "src": "https://www.youtube.com/embed/GfSeUsgyPpg?controls=0"
           }
         ],
         "pdf": []
@@ -461,7 +461,7 @@
         "iframe": [
           {
             "thumbnail": "lm_u3_01.png",
-            "src": "https://editor.p5js.org/lilli_/sketches/MFNcguiRj"
+            "src": "https://editor.p5js.org/lilli_/full/MFNcguiRj"
           }
         ],
         "pdf": []
@@ -757,9 +757,9 @@
       {
         "name": "Pfeifer Jan",
         "img": [
-          "jp_a5- Nadine,Kim,Jan_Seite_1.jpg",
-          "jp_a5-2 Nadine,Kim,Jan_Seite_1.jpg.jpg",
-          "jp_a5-3 Nadine,Kim,Jan_Seite_1jpg.jpg"
+          "jp_a5-1.jpg",
+          "jp_a5-2.jpg",
+          "jp_a5-3.jpg"
         ],
         "iframe": [],
         "pdf": [
@@ -780,7 +780,7 @@
         "iframe": [
           {
             "thumbnail": "lm_u5_01.png",
-            "src": "https://editor.p5js.org/lilli_/sketches/g9gnLoG55"
+            "src": "https://editor.p5js.org/lilli_/full/g9gnLoG55"
           }
         ],
         "pdf": []

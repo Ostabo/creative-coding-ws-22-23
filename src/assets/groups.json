@@ -35,19 +35,9 @@
     "thumbnail": "lost.png",
     "img": [],
     "iframe": [
-      "https://www.youtube.com/embed/CBzRQo66bhE"
+      "https://www.youtube.com/embed/CBzRQo66bhE?controls=0"
     ],
     "description": "Es ist eine Musikvisualisierung, welche mit den Programmen Touchdesigner, p5 und dem manuellen Videoschnitt arbeitet.\nSie stellt auf einer Seite das Verlieren in den unendlichen Feeds und Datenmengen der digitalen Medien dar. Die Überreizung und Überforderung werden von einem Technolied begleitet. Auf der anderen Seite findet der Ausbruch und die Rückkehr in die Natur statt. Mithilfe der Klassikmusik kann man Ruhe und Bewusstsein wiederfinden.",
-    "customIframeHeight": ""
-  },
-  "4": {
-    "people": "Lukas Schwarz",
-    "title": "",
-    "theme": "Soundvis. mit Arduino+Touchdesigner",
-    "description": "",
-    "thumbnail": "",
-    "img": [],
-    "iframe": [],
     "customIframeHeight": ""
   },
   "5": {
@@ -58,7 +48,7 @@
     "thumbnail": "memoji_thumb Kopie.jpg",
     "img": [],
     "iframe": [
-      "https://editor.p5js.org/Janiboiii/sketches/zixBknRWA"
+      "https://editor.p5js.org/Janiboiii/full/zixBknRWA"
     ],
     "customIframeHeight": ""
   },
@@ -66,7 +56,7 @@
     "people": "Paula Tröster, Oskar Borkenhagen",
     "title": "Mass Shootings in the US visualized",
     "theme": "Datenvisualisierung",
-    "description": "Immer wieder und überall auf der Welt gibt es Gewalttaten, die mit Waffen ausgeübt werden. Es gibt jedoch ein Land, bei dem solche Taten öfter passieren, als in anderen Regionen und ein alarmierendes Zeichen für Politik und Gesellschaft ist. Eine Massenschießerei definieren wir in unserer Arbeit als eine Gewalttat mit Schusswaffen, bei der mindestens vier Personen ums Leben gekommen sind.\nAus den gesammelten Daten sind vier Infografiken und eine interaktive Karte entstanden.",
+    "description": "Immer wieder und überall auf der Welt gibt es Gewalttaten, die mit Waffen ausgeübt werden. Es gibt jedoch ein Land, bei dem solche Taten öfter passieren, als in anderen Regionen und ein alarmierendes Zeichen für Politik und Gesellschaft ist.\nEine Massenschießerei definieren wir in unserer Arbeit als eine Gewalttat mit Schusswaffen, bei der mindestens vier Personen ums Leben gekommen sind.\nAus den gesammelten Daten sind vier Infografiken und eine interaktive Karte entstanden.",
     "thumbnail": "group6_preview.png",
     "img": [
       "group6_preview.png",
